@@ -2,7 +2,8 @@
 
 This repository contains a Lean 4 / Mathlib proof of the main results of
 
-> Jun Yin, *The Localization Scale of the Block Anderson Model in One Dimension at Arbitrary Coupling and Volume*.
+> Jun Yin, *The Localization Scale of the Block Anderson Model in One Dimension at Arbitrary Coupling and Volume*,
+> [arXiv:2611.09776](https://arxiv.org/abs/2611.09776).
 
 The version of the paper that the Lean code follows is
 [`paper/localization-scale-1d-block-anderson.pdf`](paper/localization-scale-1d-block-anderson.pdf) (LaTeX source in
