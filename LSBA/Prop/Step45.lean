@@ -280,7 +280,7 @@ private lemma step45_zeta_lower {g : ℝ} (hg : 0 ≤ g) {W L : ℕ} (hW : 1 ≤
     _ = 2 * W := by ring
 
 /-- The facts on the scales used in Steps 4 and 5 at an admissible step point for large `W`. -/
-private structure step45_Good (W : ℕ) (q : StepPt) : Prop where
+structure step45_Good (W : ℕ) (q : StepPt) : Prop where
   W3 : 3 ≤ W
   L3 : 3 ≤ q.L
   root : IsDysonRootV (hopB q.g) (gammaG q.g) q.L q.E (mRoot q.g q.L q.E)

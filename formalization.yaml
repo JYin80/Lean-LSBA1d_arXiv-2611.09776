@@ -68,7 +68,7 @@ automation:
         Lean module system and the Challenge/Solution files for Palomar were also written with
         Claude.
       cost:
-        wall_time: "about 164 hours of active work between 2026-10-25 and 2026-11-06 (744 commits in the work repository; the run was paused for long stretches in between)"
+        wall_time: "about 164 hours of active work between 2026-10-25 and 2026-11-15 (744 commits in the work repository; the run was paused for long stretches in between)"
         spend_usd: "not tracked"
         hardware: "local machine"
       prompting_notes: "n/a"

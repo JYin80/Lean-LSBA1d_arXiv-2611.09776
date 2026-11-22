@@ -3325,7 +3325,7 @@ private lemma lgk_gammaG {g : ℝ} (hg : 1 ≤ g) : gammaG g = (g ^ 2)⁻¹ := b
 
 /-- The facts on the kernels of the model at large coupling used below, at the time `t`, with
 `ℓ = min{L, g²/√(1 - t)}`. -/
-private structure LgFacts (g : ℝ) (L : ℕ) (E : ℝ) (m : ℂ) (t c C : ℝ) : Prop where
+structure LgFacts (g : ℝ) (L : ℕ) (E : ℝ) (m : ℂ) (t c C : ℝ) : Prop where
   hg : 1 ≤ g
   hγ : gammaG g = (g ^ 2)⁻¹
   hL : 3 ≤ L

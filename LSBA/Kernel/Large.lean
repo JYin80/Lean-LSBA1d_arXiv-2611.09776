@@ -1271,7 +1271,7 @@ private lemma lg_perLine_geom (σ c : ℝ) (hσ0 : 0 ≤ σ) (hσ1 : σ < 1) {L 
 
 /-- The data of the large-coupling comparison: parameters, the finite solution `m`, the line
 solution `mInf`, both in the disk around `f(E + iγ)`, and their exponential closeness. -/
-private structure LgGood (k γ E : ℝ) (L : ℕ) (m mInf : ℂ) : Prop where
+structure LgGood (k γ E : ℝ) (L : ℕ) (m mInf : ℂ) : Prop where
   hk : 0 < k
   hk1 : k ≤ 1
   hγ : 0 < γ

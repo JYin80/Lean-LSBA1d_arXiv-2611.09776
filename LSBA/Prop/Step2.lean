@@ -4874,7 +4874,7 @@ open scoped Matrix.Norms.L2Operator
 /-- The deterministic facts at an admissible step point for `W ≥ W₀` that enter the sharp local
 law: the reach, the Dyson bounds (6.2) [fo:eq:propagation-dyson] at the time `u` and at the
 comparison point, Lemma 5.11 [fo:lem:families] for the block traces, and admissibility. -/
-private structure Step2Facts (R : PropRegime) (c N : ℝ) (W : ℕ) (q : StepPt) : Prop where
+structure Step2Facts (R : PropRegime) (c N : ℝ) (W : ℕ) (q : StepPt) : Prop where
   four_le : 4 ≤ W
   reach : ∃ d : ℕ, d < R.J ∧ CmpReach R.base W d (q.at q.u)
   L3 : 3 ≤ q.L

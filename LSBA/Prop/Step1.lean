@@ -1326,7 +1326,7 @@ private def step1Cmp (q : StepPt) : FlowPt := cmpPt (q.at q.u) q.s
 
 open scoped Matrix.Norms.L2Operator in
 /-- The deterministic facts at an admissible step point for `W ≥ W₀`. -/
-private structure Step1Facts (R : PropRegime) (c N : ℝ) (W : ℕ) (q : StepPt) : Prop where
+structure Step1Facts (R : PropRegime) (c N : ℝ) (W : ℕ) (q : StepPt) : Prop where
   two_le : 2 ≤ W
   reach : ∃ d : ℕ, d < R.J ∧ CmpReach R.base W d (q.at q.u)
   L3 : 3 ≤ q.L

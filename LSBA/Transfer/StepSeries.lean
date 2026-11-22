@@ -98,7 +98,7 @@ def stepSeries : ObsPoly →ₐ[ℂ] PowerSeries CfgPoly :=
 /-! ### Polynomial bounds, uniform over a family of points -/
 
 /-- A family of points with a weight `t ∈ [0, H]` and a size `s ≥ 1`. -/
-private structure Scl (ι : Type) where
+structure Scl (ι : Type) where
   P : Set ι
   t : ι → ℝ
   s : ι → ℝ
@@ -445,7 +445,7 @@ end Series
 /-! ### The one-step quantities as expansions -/
 
 /-- A point: a width `W`, a coupling `g`, an energy `E`, a state and a block. -/
-private structure SCtx where
+structure SCtx where
   W : ℕ
   g : ℝ
   E : ℝ

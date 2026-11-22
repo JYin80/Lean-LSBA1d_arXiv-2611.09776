@@ -412,7 +412,7 @@ private lemma integral_line_eq_zero {f : ℂ → ℂ} (hf : DifferentiableOn ℂ
 section Representation
 
 /-- The hypotheses of the representation theorem. -/
-private structure ReprHyp (m : ℂ → ℂ) (R : ℝ) : Prop where
+structure ReprHyp (m : ℂ → ℂ) (R : ℝ) : Prop where
   hm : DifferentiableOn ℂ m {z : ℂ | 0 < z.im}
   him : ∀ z : ℂ, 0 < z.im → 0 ≤ (m z).im
   hR : 0 < R

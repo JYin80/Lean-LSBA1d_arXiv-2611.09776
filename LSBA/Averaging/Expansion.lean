@@ -1290,7 +1290,7 @@ end Divergence
 /-- A factor of a term of the expansion of `E|R_ab|^p`: a divergence (`dv`) or a word, possibly
 conjugated (`cj`), with its word `w` of labels (the leading label of a divergence is summed and is
 not listed). -/
-private structure Fac (e : ℕ) where
+structure Fac (e : ℕ) where
   dv : Bool
   cj : Bool
   w : List (Fin e)

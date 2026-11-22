@@ -1620,7 +1620,7 @@ private def coneCrudeE (C Cζ : ℝ) (n : ℕ) : ℝ := 2 * (1 + |Cζ| * (n + 1)
 private def coneCrudeLam (C Cζ : ℝ) (n W : ℕ) : ℝ := (W : ℝ) ^ coneCrudeE C Cζ n
 
 /-- The deterministic facts at a reached point `x` with terminal time `v`. -/
-private structure coneCrudeAt (n : ℕ) (C Cζ : ℝ) (W : ℕ) (x : FlowPt) (v : ℝ) : Prop where
+structure coneCrudeAt (n : ℕ) (C Cζ : ℝ) (W : ℕ) (x : FlowPt) (v : ℝ) : Prop where
   hW : 1 ≤ W
   hL : 3 ≤ x.L
   root : IsDysonRootV (hopB x.g) (gammaG x.g) x.L x.E (mRoot x.g x.L x.E)

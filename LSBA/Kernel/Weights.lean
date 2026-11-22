@@ -554,6 +554,7 @@ private lemma weights_floor_le (c θ F : ℝ) (W : ℕ) (ℓ r : ℝ) :
   unfold weightFn
   linarith [Real.exp_pos (-(c * (r / ℓ) ^ θ))]
 
+set_option maxHeartbeats 1000000 in
 /-- Product of two perturbed entries: if `p' = p + δ k`, `q' = q + δ k'` with `0 ≤ k, k' ≤ ρ`, then
 `p' q' ≤ p q + δ ρ (p' + q')`. -/
 private lemma weights_prop_pt (p q k k' δ ρ : ℝ) (hp : 0 ≤ p) (hq : 0 ≤ q) (hk : 0 ≤ k)
