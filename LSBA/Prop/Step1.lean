@@ -1313,16 +1313,16 @@ end Ends
 section Facts
 
 /-- `x = Re z_u` at a step point. -/
-private def step1X (q : StepPt) : ℝ := (zChar q.g q.E (mRoot q.g q.L q.E) q.u).re
+def step1X (q : StepPt) : ℝ := (zChar q.g q.E (mRoot q.g q.L q.E) q.u).re
 
 /-- `η_u` at a step point. -/
-private def step1Eta (q : StepPt) : ℝ := etaChar q.g (mRoot q.g q.L q.E) q.u
+def step1Eta (q : StepPt) : ℝ := etaChar q.g (mRoot q.g q.L q.E) q.u
 
 /-- `Im w` of the comparison point of a step point. -/
-private def step1Top (q : StepPt) : ℝ := (wCmp q.g q.L q.E (mRoot q.g q.L q.E) q.s q.u).im
+def step1Top (q : StepPt) : ℝ := (wCmp q.g q.L q.E (mRoot q.g q.L q.E) q.s q.u).im
 
 /-- The comparison point `(g', E', L, s)` of a step point. -/
-private def step1Cmp (q : StepPt) : FlowPt := cmpPt (q.at q.u) q.s
+def step1Cmp (q : StepPt) : FlowPt := cmpPt (q.at q.u) q.s
 
 open scoped Matrix.Norms.L2Operator in
 /-- The deterministic facts at an admissible step point for `W ≥ W₀`. -/

@@ -1123,7 +1123,7 @@ variable {L : ℕ}
 
 /-- Hypotheses on the profile `F` of a symmetric circulant probability kernel at coupling `g`:
 mass `≥ p₀` at `0`, mass `≥ c₁g²` at distance `1`, and weighted off-diagonal mass `≤ C_P g²`. -/
-structure BdGood (L : ℕ) (F : ℕ → ℝ) (g p₀ c₁ μ₀ CP : ℝ) : Prop where
+private structure BdGood (L : ℕ) (F : ℕ → ℝ) (g p₀ c₁ μ₀ CP : ℝ) : Prop where
   hL : 3 ≤ L
   nonneg : ∀ r, 0 ≤ F r
   sum : ∀ [NeZero L], ∑ y : Fin L, F (bdD y) = 1
@@ -2516,7 +2516,7 @@ private lemma bd_bgV_le (ρ : ℂ) (q₀ : ℝ) (hq : ‖ρ‖ ≤ q₀) (hq₀ 
   nlinarith [norm_nonneg (ρ ^ r + ρ ^ (L - r))]
 
 /-- The facts on the bounded-coupling kernel used below. -/
-structure BdModel (C B₀ c' g : ℝ) (L : ℕ) (E : ℝ) (m : ℂ) : Prop where
+private structure BdModel (C B₀ c' g : ℝ) (L : ℕ) (E : ℝ) (m : ℂ) : Prop where
   gam : 0 < gammaG g ∧ gammaG g ≤ 1 ∧ 1 ≤ gammaG g * bdCm C ^ 2
   w_im : 0 < ((E : ℂ) + gammaG g * m).im
   M_eq : ∀ a c, dysonMat (hopB g) (gammaG g) L E m a c =

@@ -1611,13 +1611,13 @@ end GenPoint
 section Regime
 
 /-- `B = C W^{1 + |C_ζ|(n + 1)}`, the bound on `|m|` and on the primitive loops. -/
-private def coneCrudeB (C Cζ : ℝ) (n W : ℕ) : ℝ := C * (W : ℝ) ^ (1 + |Cζ| * (n + 1))
+def coneCrudeB (C Cζ : ℝ) (n W : ℕ) : ℝ := C * (W : ℝ) ^ (1 + |Cζ| * (n + 1))
 
 /-- The exponent `2(1 + |C_ζ|(n + 1)) + C(n + 1) + 4` of the common polynomial scale. -/
-private def coneCrudeE (C Cζ : ℝ) (n : ℕ) : ℝ := 2 * (1 + |Cζ| * (n + 1)) + C * (n + 1) + 4
+def coneCrudeE (C Cζ : ℝ) (n : ℕ) : ℝ := 2 * (1 + |Cζ| * (n + 1)) + C * (n + 1) + 4
 
 /-- `Λ = W^{2(1 + |C_ζ|(n + 1)) + C(n + 1) + 4}`, the common polynomial scale. -/
-private def coneCrudeLam (C Cζ : ℝ) (n W : ℕ) : ℝ := (W : ℝ) ^ coneCrudeE C Cζ n
+def coneCrudeLam (C Cζ : ℝ) (n W : ℕ) : ℝ := (W : ℝ) ^ coneCrudeE C Cζ n
 
 /-- The deterministic facts at a reached point `x` with terminal time `v`. -/
 structure coneCrudeAt (n : ℕ) (C Cζ : ℝ) (W : ℕ) (x : FlowPt) (v : ℝ) : Prop where

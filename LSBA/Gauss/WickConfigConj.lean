@@ -452,7 +452,7 @@ by a segment of letter positions. A cycle without marker is a normalised trace, 
 markers is the product of `k` marked forms. -/
 
 /-- A piece of a cycle: an optional marker position and a segment. -/
-private abbrev Pc : Type := Option ℕ × List ℕ
+abbrev Pc : Type := Option ℕ × List ℕ
 
 private def cF (c : List Pc) : List ℕ := c.flatMap fun pc => pc.1.toList ++ pc.2
 

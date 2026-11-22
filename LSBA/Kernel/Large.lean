@@ -596,7 +596,7 @@ private lemma lg_fixed (Φ : ℂ → ℂ) (c₀ : ℂ) (r : ℝ)
   exact ⟨y, hy, hfix⟩
 
 /-- The center `f(E + iγ)` of the disk carrying the roots. -/
-private def lgC0 (γ E : ℝ) : ℂ := freeT 1 ((E : ℂ) + (γ : ℂ) * I)
+def lgC0 (γ E : ℝ) : ℂ := freeT 1 ((E : ℂ) + (γ : ℂ) * I)
 
 section Core
 

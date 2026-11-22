@@ -3518,6 +3518,7 @@ private lemma lgk_circ_row {L : ℕ} [NeZero L] (v : Fin L → ℝ) (a : Fin L) 
   simp only [Matrix.circulant_apply]
   exact Equiv.sum_comp (Equiv.subLeft a) v
 
+set_option maxHeartbeats 1000000 in
 /-- The kernel facts at large coupling, from Lemma A.4 [uvp:prop:finite] and Lemma A.10
 [uvp:lem:actual-kernels], under `L ≥ R(1 + |log(1 - t)|)g²`. -/
 private lemma lgk_facts (κ : ℝ) (hκ : 0 < κ) (hκ2 : κ < 2) :

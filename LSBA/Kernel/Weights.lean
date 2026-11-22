@@ -554,7 +554,6 @@ private lemma weights_floor_le (c θ F : ℝ) (W : ℕ) (ℓ r : ℝ) :
   unfold weightFn
   linarith [Real.exp_pos (-(c * (r / ℓ) ^ θ))]
 
-set_option maxHeartbeats 1000000 in
 /-- Product of two perturbed entries: if `p' = p + δ k`, `q' = q + δ k'` with `0 ≤ k, k' ≤ ρ`, then
 `p' q' ≤ p q + δ ρ (p' + q')`. -/
 private lemma weights_prop_pt (p q k k' δ ρ : ℝ) (hp : 0 ≤ p) (hq : 0 ≤ q) (hk : 0 ≤ k)
@@ -566,6 +565,7 @@ private lemma weights_prop_pt (p q k k' δ ρ : ℝ) (hp : 0 ≤ p) (hq : 0 ≤ 
     mul_nonneg (mul_nonneg (mul_nonneg hδ hδ) hk) (sub_nonneg.2 hk'ρ),
     mul_nonneg (mul_nonneg (mul_nonneg hδ hδ) hρ) hk']
 
+set_option maxHeartbeats 1000000 in
 /-- (A.53) [da:eq:propagated-weight], from the profile bound (6.3) [fo:eq:kernel-bounds] with the
 remainder at accuracy `B + F + 1`. -/
 theorem propagated_weight (C₁ c c_p θ B F : ℝ) (hC₁ : 0 < C₁) (hc : 0 < c) (hcp : 0 < c_p)

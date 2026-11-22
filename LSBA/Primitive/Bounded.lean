@@ -515,12 +515,12 @@ private lemma bnd_finRotate_val {n : ℕ} (v : Fin n) :
       simp [h, h']
 
 /-- The vertex map of the polygon of `Cut_{L,i,j}`. -/
-private def bnd_vL (i j : Fin k) (p : Fin (k + i - j + 1)) : Fin k :=
+def bnd_vL (i j : Fin k) (p : Fin (k + i - j + 1)) : Fin k :=
   ⟨if p.val ≤ i.val then p.val else p.val + j.val - i.val - 1, by
     have := p.isLt; have := i.isLt; have := j.isLt; split_ifs <;> omega⟩
 
 /-- The vertex map of the polygon of `Cut_{R,i,j}`. -/
-private def bnd_vR (i j : Fin k) (q : Fin (j - i + 1)) : Fin k :=
+def bnd_vR (i j : Fin k) (q : Fin (j - i + 1)) : Fin k :=
   ⟨i.val + q.val, by have := q.isLt; have := i.isLt; have := j.isLt; omega⟩
 
 private lemma bnd_vL_val (i j : Fin k) (p : Fin (k + i - j + 1)) :
@@ -2144,11 +2144,11 @@ section GlueFourier
 variable {k L : ℕ}
 
 /-- The labels of the polygon of Cut_L with the cut label `x`. -/
-private def bnd_yL (i j : Fin k) (y : Fin k → Fin L) (x : Fin L) : Fin (k + i - j + 1) → Fin L :=
+def bnd_yL (i j : Fin k) (y : Fin k → Fin L) (x : Fin L) : Fin (k + i - j + 1) → Fin L :=
   fun p => if p.val = i.val then x else y (bnd_vL i j p)
 
 /-- The labels of the polygon of Cut_R with the cut label `x`. -/
-private def bnd_yR (i j : Fin k) (y : Fin k → Fin L) (x : Fin L) : Fin (j - i + 1) → Fin L :=
+def bnd_yR (i j : Fin k) (y : Fin k → Fin L) (x : Fin L) : Fin (j - i + 1) → Fin L :=
   fun q => if q.val = j.val - i.val then x else y (bnd_vR i j q)
 
 /-- The tensor glued from `A` and `B` along `(i, j)` with the link `X`. -/
@@ -2494,7 +2494,7 @@ section Graded
 variable {k L : ℕ}
 
 /-- The number of mixed diagonals (joining opposite signs) of `F`. -/
-private def bnd_cnt (σ : Fin k → Bool) (F : Finset (Fin k × Fin k)) : ℕ :=
+def bnd_cnt (σ : Fin k → Bool) (F : Finset (Fin k × Fin k)) : ℕ :=
   (F.filter (fun d => σ d.1 ≠ σ d.2)).card
 
 /-- The core summed over the dissections with exactly `r` mixed diagonals. -/
