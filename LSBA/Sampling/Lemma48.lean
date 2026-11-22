@@ -1,7 +1,11 @@
-import LSBA.Sampling.Fekete
-import LSBA.Sampling.Primitive
-import LSBA.Sampling.Bounded
-import LSBA.Kernel.Weights
+module
+
+public import LSBA.Sampling.Fekete
+public import LSBA.Sampling.Primitive
+public import LSBA.Sampling.Bounded
+public import LSBA.Kernel.Weights
+
+@[expose] public section
 
 /-!
 # Loop sampling at large coupling

@@ -1,4 +1,8 @@
-import LSBA.Volume.LocalComparison
+module
+
+public import LSBA.Volume.LocalComparison
+
+@[expose] public section
 
 /-!
 # The Boole identity and energy-integrated resolvent entries

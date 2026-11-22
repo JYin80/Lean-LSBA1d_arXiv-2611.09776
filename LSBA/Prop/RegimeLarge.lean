@@ -1,6 +1,10 @@
-import LSBA.Prop.Regime
-import LSBA.Kernel.Large
-import LSBA.Primitive.Large
+module
+
+public import LSBA.Prop.Regime
+public import LSBA.Kernel.Large
+public import LSBA.Primitive.Large
+
+@[expose] public section
 
 /-!
 # The large-coupling regime

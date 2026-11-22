@@ -1,4 +1,8 @@
-import LSBA.Upper.ChainBridge
+module
+
+public import LSBA.Upper.ChainBridge
+
+@[expose] public section
 
 /-!
 # The enlarged right space and the inverse-image inclusion

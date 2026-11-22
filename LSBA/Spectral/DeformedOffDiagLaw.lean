@@ -1,4 +1,8 @@
-import LSBA.Spectral.DeformedMinorLaw
+module
+
+public import LSBA.Spectral.DeformedMinorLaw
+
+@[expose] public section
 
 /-!
 # Off-diagonal entries

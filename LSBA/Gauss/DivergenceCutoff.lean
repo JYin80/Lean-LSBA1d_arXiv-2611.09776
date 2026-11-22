@@ -1,4 +1,8 @@
-import LSBA.Gauss.DivergenceMoment
+module
+
+public import LSBA.Gauss.DivergenceMoment
+
+@[expose] public section
 
 /-!
 # Gaussian divergence of a cut field

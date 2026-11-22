@@ -1,7 +1,11 @@
-import LSBA.Upper.SrcCutoff
-import LSBA.Upper.GenDeriv
-import LSBA.Upper.AllowBound
-import LSBA.Upper.ChosenGenerator
+module
+
+public import LSBA.Upper.SrcCutoff
+public import LSBA.Upper.GenDeriv
+public import LSBA.Upper.AllowBound
+public import LSBA.Upper.ChosenGenerator
+
+@[expose] public section
 
 /-!
 # The pointwise clauses of Lemma 9.3 [su:lem:chosen-generator] on the support of the cutoff

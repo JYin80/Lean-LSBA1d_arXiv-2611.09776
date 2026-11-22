@@ -1,15 +1,19 @@
-import LSBA.Loop.ProjField
-import LSBA.Loop.WardRow
-import LSBA.Kernel.Restore
-import LSBA.Loop.SourceTail
-import LSBA.Flow.MomentIter
-import LSBA.Prop.SampleMoment
-import LSBA.Prop.Increment
-import LSBA.Prop.Domination
-import LSBA.Flow.Comparison
-import LSBA.Prop.ConeRates
-import LSBA.Prop.ConeBracket
-import LSBA.Prop.ConeCrude
+module
+
+public import LSBA.Loop.ProjField
+public import LSBA.Loop.WardRow
+public import LSBA.Kernel.Restore
+public import LSBA.Loop.SourceTail
+public import LSBA.Flow.MomentIter
+public import LSBA.Prop.SampleMoment
+public import LSBA.Prop.Increment
+public import LSBA.Prop.Domination
+public import LSBA.Flow.Comparison
+public import LSBA.Prop.ConeRates
+public import LSBA.Prop.ConeBracket
+public import LSBA.Prop.ConeCrude
+
+@[expose] public section
 
 /-!
 # One node of the Step 3 cone

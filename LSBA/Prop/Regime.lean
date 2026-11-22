@@ -1,5 +1,9 @@
-import LSBA.Prop.Objects
-import LSBA.Kernel.Comparison
+module
+
+public import LSBA.Prop.Objects
+public import LSBA.Kernel.Comparison
+
+@[expose] public section
 
 /-!
 # The comparison reach and the regime

@@ -1,4 +1,8 @@
-import LSBA.Upper.LiftProduct
+module
+
+public import LSBA.Upper.LiftProduct
+
+@[expose] public section
 
 /-!
 # The adjoint of the differential and the observation recursions

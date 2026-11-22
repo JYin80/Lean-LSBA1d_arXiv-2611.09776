@@ -1,6 +1,10 @@
-import LSBA.Transfer.Coarse
-import LSBA.Volume.Poisson
-import LSBA.Main.CountMono
+module
+
+public import LSBA.Transfer.Coarse
+public import LSBA.Volume.Poisson
+public import LSBA.Main.CountMono
+
+@[expose] public section
 
 /-!
 # Seed tails

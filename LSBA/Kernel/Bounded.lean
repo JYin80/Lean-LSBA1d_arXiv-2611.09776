@@ -1,8 +1,12 @@
-import LSBA.Kernel.Algebra
-import LSBA.Kernel.LineKernel
-import LSBA.Dyson.Perturb
-import LSBA.Dyson.FiniteRegular
-import LSBA.Kernel.Root
+module
+
+public import LSBA.Kernel.Algebra
+public import LSBA.Kernel.LineKernel
+public import LSBA.Dyson.Perturb
+public import LSBA.Dyson.FiniteRegular
+public import LSBA.Kernel.Root
+
+@[expose] public section
 
 /-!
 # Bounded coupling

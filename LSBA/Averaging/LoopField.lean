@@ -1,6 +1,10 @@
-import LSBA.Averaging.Vertical
-import LSBA.Flow.SurrField
-import LSBA.Primitive.Large
+module
+
+public import LSBA.Averaging.Vertical
+public import LSBA.Flow.SurrField
+public import LSBA.Primitive.Large
+
+@[expose] public section
 
 /-!
 # The loop-error field on the Gaussian slice

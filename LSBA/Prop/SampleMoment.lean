@@ -1,7 +1,11 @@
-import LSBA.Prop.StepDefs
-import LSBA.Prop.Inputs
-import LSBA.Prop.Domination
-import LSBA.Flow.Comparison
+module
+
+public import LSBA.Prop.StepDefs
+public import LSBA.Prop.Inputs
+public import LSBA.Prop.Domination
+public import LSBA.Flow.Comparison
+
+@[expose] public section
 
 /-!
 # From moments at every word to the maximum over all words

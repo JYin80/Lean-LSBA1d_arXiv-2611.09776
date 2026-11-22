@@ -1,4 +1,8 @@
-import LSBA.Upper.CenterCorrection
+module
+
+public import LSBA.Upper.CenterCorrection
+
+@[expose] public section
 
 /-!
 # The parity property of the corrected updates

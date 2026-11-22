@@ -1,5 +1,9 @@
-import LSBA.Spectral.EigMass
-import LSBA.Spectral.Measurability
+module
+
+public import LSBA.Spectral.EigMass
+public import LSBA.Spectral.Measurability
+
+@[expose] public section
 
 /-!
 # Eigenfunction correlators

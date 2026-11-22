@@ -1,5 +1,9 @@
-import LSBA.Spectral.TwoSidedCounts
-import LSBA.Model.Cycle
+module
+
+public import LSBA.Spectral.TwoSidedCounts
+public import LSBA.Model.Cycle
+
+@[expose] public section
 
 /-!
 # Block tails and the count of (3.6) [eq:averaged-tail]

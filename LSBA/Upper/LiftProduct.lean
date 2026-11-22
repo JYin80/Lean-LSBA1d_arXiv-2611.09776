@@ -1,5 +1,9 @@
-import LSBA.Upper.LieAlgebra
-import LSBA.Upper.Operator
+module
+
+public import LSBA.Upper.LieAlgebra
+public import LSBA.Upper.Operator
+
+@[expose] public section
 
 /-!
 # The product `F = T_1 ⋯ T_q` and its differential

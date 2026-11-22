@@ -1,5 +1,9 @@
-import LSBA.Gauss.GUE
-import LSBA.Upper.CoercivityMap
+module
+
+public import LSBA.Gauss.GUE
+public import LSBA.Upper.CoercivityMap
+
+@[expose] public section
 
 /-!
 # Skew-Hermitian frames of a projection

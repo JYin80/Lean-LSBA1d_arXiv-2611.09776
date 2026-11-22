@@ -1,7 +1,11 @@
-import LSBA.Upper.CompactRadius
-import LSBA.Upper.Angular
-import LSBA.Upper.DensityContraction
-import LSBA.Upper.GoodBad
+module
+
+public import LSBA.Upper.CompactRadius
+public import LSBA.Upper.Angular
+public import LSBA.Upper.DensityContraction
+public import LSBA.Upper.GoodBad
+
+@[expose] public section
 
 /-!
 # Theorem 3.3 [thm:compact-upper]

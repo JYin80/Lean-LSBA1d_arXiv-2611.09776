@@ -1,12 +1,16 @@
-import LSBA.Upper.ChosenGenerator
-import LSBA.Spectral.SpecProj
-import LSBA.Upper.SrcCutoffReg
-import LSBA.Upper.SrcCutoffCost
-import LSBA.Upper.CutoffMassWeak
-import LSBA.Upper.CutoffMassCrit
-import LSBA.Upper.Preparation
-import LSBA.Upper.PrepMeasure
-import LSBA.Gauss.PrefixEvent
+module
+
+public import LSBA.Upper.ChosenGenerator
+public import LSBA.Spectral.SpecProj
+public import LSBA.Upper.SrcCutoffReg
+public import LSBA.Upper.SrcCutoffCost
+public import LSBA.Upper.CutoffMassWeak
+public import LSBA.Upper.CutoffMassCrit
+public import LSBA.Upper.Preparation
+public import LSBA.Upper.PrepMeasure
+public import LSBA.Gauss.PrefixEvent
+
+@[expose] public section
 
 /-!
 # Lemma 9.3 [su:lem:chosen-generator]: existence of the cutoff and the generator

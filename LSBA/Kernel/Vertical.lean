@@ -1,4 +1,8 @@
-import LSBA.Kernel.Comparison
+module
+
+public import LSBA.Kernel.Comparison
+
+@[expose] public section
 
 /-!
 # The Dyson matrix on vertical lines

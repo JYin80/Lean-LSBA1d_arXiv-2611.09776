@@ -1,10 +1,14 @@
-import LSBA.Main.Endpoints
-import LSBA.Upper.Assembly
-import LSBA.Main.EndpointAlgebraTwoSided
-import LSBA.Upper.StrongUpper
-import LSBA.Upper.SharpSmall
-import LSBA.Upper.CompactUpper
-import LSBA.Upper.LargeUpper
+module
+
+public import LSBA.Main.Endpoints
+public import LSBA.Upper.Assembly
+public import LSBA.Main.EndpointAlgebraTwoSided
+public import LSBA.Upper.StrongUpper
+public import LSBA.Upper.SharpSmall
+public import LSBA.Upper.CompactUpper
+public import LSBA.Upper.LargeUpper
+
+@[expose] public section
 
 /-!
 # The endpoints of the upper bound

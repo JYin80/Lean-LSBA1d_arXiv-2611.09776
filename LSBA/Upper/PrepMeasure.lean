@@ -1,6 +1,10 @@
-import LSBA.Upper.PrepChart
-import LSBA.Gauss.GUEFirstRow
-import LSBA.Gauss.FreshEvent
+module
+
+public import LSBA.Upper.PrepChart
+public import LSBA.Gauss.GUEFirstRow
+public import LSBA.Gauss.FreshEvent
+
+@[expose] public section
 
 /-!
 # The preparation data as functions of the preparation blocks

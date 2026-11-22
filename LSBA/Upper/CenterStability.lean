@@ -1,4 +1,8 @@
-import LSBA.Upper.CenterMoments
+module
+
+public import LSBA.Upper.CenterMoments
+
+@[expose] public section
 
 /-!
 # Stability of `M_k` and `F_k`

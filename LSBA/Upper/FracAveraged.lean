@@ -1,5 +1,9 @@
-import LSBA.Upper.FracMoment
-import LSBA.Upper.LargeAverageUpper
+module
+
+public import LSBA.Upper.FracMoment
+public import LSBA.Upper.LargeAverageUpper
+
+@[expose] public section
 
 /-!
 # From energy-averaged fractional moments to concentration

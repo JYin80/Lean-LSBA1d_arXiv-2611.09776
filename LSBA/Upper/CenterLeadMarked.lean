@@ -1,4 +1,8 @@
-import LSBA.Upper.CenterExpansion
+module
+
+public import LSBA.Upper.CenterExpansion
+
+@[expose] public section
 
 /-!
 # Uniform polynomial expansions: the leading marked coefficients

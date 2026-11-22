@@ -1,12 +1,16 @@
-import LSBA.Upper.ConversionEndpoint
-import LSBA.Upper.ConversionCycle
-import LSBA.Upper.CorrelatorDecay
-import LSBA.Upper.CorrelatorCount
-import LSBA.Upper.Interface
-import LSBA.Upper.OperatorLength
-import LSBA.Upper.OperatorIteration
-import LSBA.Upper.FracChain
-import LSBA.Analysis.LogAbsorb
+module
+
+public import LSBA.Upper.ConversionEndpoint
+public import LSBA.Upper.ConversionCycle
+public import LSBA.Upper.CorrelatorDecay
+public import LSBA.Upper.CorrelatorCount
+public import LSBA.Upper.Interface
+public import LSBA.Upper.OperatorLength
+public import LSBA.Upper.OperatorIteration
+public import LSBA.Upper.FracChain
+public import LSBA.Analysis.LogAbsorb
+
+@[expose] public section
 
 /-!
 # Theorem 3.3 [thm:compact-upper] from the contraction at batch length 1000

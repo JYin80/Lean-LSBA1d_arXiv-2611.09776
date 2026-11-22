@@ -1,4 +1,8 @@
-import LSBA.Transfer.Basic
+module
+
+public import LSBA.Transfer.Basic
+
+@[expose] public section
 
 /-!
 # Boundary frames and the matrix `D_n`

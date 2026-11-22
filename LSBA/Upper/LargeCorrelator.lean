@@ -1,8 +1,12 @@
-import LSBA.Upper.LargeAverage
-import LSBA.Upper.LargeCellRatio
-import LSBA.Upper.LargeGreenPath
-import LSBA.Transfer.PathSchur
-import LSBA.Model.Cycle
+module
+
+public import LSBA.Upper.LargeAverage
+public import LSBA.Upper.LargeCellRatio
+public import LSBA.Upper.LargeGreenPath
+public import LSBA.Transfer.PathSchur
+public import LSBA.Model.Cycle
+
+@[expose] public section
 
 /-!
 # Cell correlators

@@ -1,4 +1,8 @@
-import LSBA.Gauss.GUELaw
+module
+
+public import LSBA.Gauss.GUELaw
+
+@[expose] public section
 
 /-!
 # Wick recursion for one GUE block

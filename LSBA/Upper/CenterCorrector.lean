@@ -1,5 +1,9 @@
-import LSBA.Upper.CorrectorDrift
-import LSBA.Upper.CenterStability
+module
+
+public import LSBA.Upper.CorrectorDrift
+public import LSBA.Upper.CenterStability
+
+@[expose] public section
 
 /-!
 # A bounded corrector and positive drift

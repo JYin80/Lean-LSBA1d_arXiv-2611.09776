@@ -1,5 +1,9 @@
-import LSBA.Loop.ProjField
-import LSBA.Prop.Inputs
+module
+
+public import LSBA.Loop.ProjField
+public import LSBA.Prop.Inputs
+
+@[expose] public section
 
 /-!
 # Crude moments of the propagated loop-error fields of Step 3

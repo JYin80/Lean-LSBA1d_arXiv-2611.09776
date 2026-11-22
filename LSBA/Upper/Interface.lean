@@ -1,4 +1,8 @@
-import LSBA.Spectral.BlockTail
+module
+
+public import LSBA.Spectral.BlockTail
+
+@[expose] public section
 
 /-!
 # Theorems 3.1 [thm:strong-upper]–3.4 [thm:large-upper] as propositions

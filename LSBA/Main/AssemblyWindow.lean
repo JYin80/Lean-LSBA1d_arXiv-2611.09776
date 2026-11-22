@@ -1,4 +1,8 @@
-import LSBA.Main.EndpointAlgebra
+module
+
+public import LSBA.Main.EndpointAlgebra
+
+@[expose] public section
 
 /-!
 # The energy window of the lower-bound assembly

@@ -1,4 +1,8 @@
-import LSBA.Prop.Regime
+module
+
+public import LSBA.Prop.Regime
+
+@[expose] public section
 
 /-!
 # The increment input of the propagation theorem

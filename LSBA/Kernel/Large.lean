@@ -1,6 +1,10 @@
-import LSBA.Kernel.Root
-import LSBA.Kernel.Algebra
-import LSBA.Kernel.LineKernel
+module
+
+public import LSBA.Kernel.Root
+public import LSBA.Kernel.Algebra
+public import LSBA.Kernel.LineKernel
+
+@[expose] public section
 
 /-!
 # Large coupling

@@ -1,5 +1,9 @@
-import LSBA.Gauss.OneBlockWegner
-import LSBA.Gauss.BlockSplit
+module
+
+public import LSBA.Gauss.OneBlockWegner
+public import LSBA.Gauss.BlockSplit
+
+@[expose] public section
 
 /-!
 # One fresh GUE block with a shift depending on the other blocks

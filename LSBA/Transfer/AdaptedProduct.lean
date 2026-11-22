@@ -1,4 +1,8 @@
-import LSBA.Transfer.NormalForm
+module
+
+public import LSBA.Transfer.NormalForm
+
+@[expose] public section
 
 /-!
 # The adapted product

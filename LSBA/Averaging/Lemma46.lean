@@ -1,5 +1,9 @@
-import LSBA.Averaging.Loops
-import LSBA.Averaging.Ward
+module
+
+public import LSBA.Averaging.Loops
+public import LSBA.Averaging.Ward
+
+@[expose] public section
 
 /-!
 # Lemma 5.6 [fo:prop:inputs] at a fixed time

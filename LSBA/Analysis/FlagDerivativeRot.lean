@@ -1,4 +1,8 @@
-import LSBA.Analysis.FlagDerivative
+module
+
+public import LSBA.Analysis.FlagDerivative
+
+@[expose] public section
 
 /-!
 # Image projections moving by a rotation

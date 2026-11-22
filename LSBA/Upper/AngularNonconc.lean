@@ -1,4 +1,8 @@
-import LSBA.Upper.AngularIBP
+module
+
+public import LSBA.Upper.AngularIBP
+
+@[expose] public section
 
 /-!
 # Nonconcentration of the angular ratio

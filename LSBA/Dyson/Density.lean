@@ -1,4 +1,8 @@
-import LSBA.Dyson.Band
+module
+
+public import LSBA.Dyson.Band
+
+@[expose] public section
 
 /-!
 # The density of `ν_g`

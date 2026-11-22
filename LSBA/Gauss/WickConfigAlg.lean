@@ -1,4 +1,8 @@
-import LSBA.Gauss.WickConfig
+module
+
+public import LSBA.Gauss.WickConfig
+
+@[expose] public section
 
 /-!
 # Algebraic properties of the Wick contraction

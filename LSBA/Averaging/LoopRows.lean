@@ -1,7 +1,11 @@
-import LSBA.Loop.Generator
-import LSBA.Prop.Ward
-import LSBA.Gauss.RoughDensity
-import LSBA.Volume.LocalComparison
+module
+
+public import LSBA.Loop.Generator
+public import LSBA.Prop.Ward
+public import LSBA.Gauss.RoughDensity
+public import LSBA.Volume.LocalComparison
+
+@[expose] public section
 
 /-!
 # Rows of resolvent loops

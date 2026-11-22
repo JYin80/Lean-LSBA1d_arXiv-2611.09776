@@ -1,5 +1,9 @@
-import LSBA.Small.Rows
-import LSBA.Primitive.Molecule
+module
+
+public import LSBA.Small.Rows
+public import LSBA.Primitive.Molecule
+
+@[expose] public section
 
 /-!
 # Stable molecules at small coupling

@@ -1,5 +1,9 @@
-import LSBA.Primitive.Defs
-import LSBA.Gauss.Concentration
+module
+
+public import LSBA.Primitive.Defs
+public import LSBA.Gauss.Concentration
+
+@[expose] public section
 
 /-!
 # The auxiliary model of Lemma 5.4 [uvc:lem:orbital-limit]

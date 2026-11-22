@@ -1,5 +1,9 @@
-import LSBA.Spectral.CompressSpectrum
-import LSBA.Gauss.BlockCompress
+module
+
+public import LSBA.Spectral.CompressSpectrum
+public import LSBA.Gauss.BlockCompress
+
+@[expose] public section
 
 /-!
 # Compression of inverse images of a fresh GUE matrix

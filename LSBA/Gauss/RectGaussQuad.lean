@@ -1,5 +1,9 @@
-import LSBA.Gauss.RectGauss
-import LSBA.Gauss.ExpQuadratic
+module
+
+public import LSBA.Gauss.RectGauss
+public import LSBA.Gauss.ExpQuadratic
+
+@[expose] public section
 
 /-!
 # Quadratic forms of a rectangular complex Gaussian matrix

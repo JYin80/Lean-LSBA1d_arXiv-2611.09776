@@ -1,7 +1,11 @@
-import LSBA.Flow.BoundedInitial
-import LSBA.Prop.Objects
-import LSBA.Primitive.Early
-import LSBA.Averaging.Expansion
+module
+
+public import LSBA.Flow.BoundedInitial
+public import LSBA.Prop.Objects
+public import LSBA.Primitive.Early
+public import LSBA.Averaging.Expansion
+
+@[expose] public section
 
 /-!
 # Lemma 5.3 [fo:lem:bounded-initial]: the initial input at bounded coupling

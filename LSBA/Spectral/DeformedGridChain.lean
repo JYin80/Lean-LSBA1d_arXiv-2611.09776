@@ -1,4 +1,8 @@
-import LSBA.Spectral.DeformedSchurStep
+module
+
+public import LSBA.Spectral.DeformedSchurStep
+
+@[expose] public section
 
 /-!
 # The continuity grid

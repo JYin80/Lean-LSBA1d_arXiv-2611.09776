@@ -1,4 +1,8 @@
-import LSBA.Upper.CoercivityMap
+module
+
+public import LSBA.Upper.CoercivityMap
+
+@[expose] public section
 
 /-!
 # Rank-two skew-Hermitian corrections

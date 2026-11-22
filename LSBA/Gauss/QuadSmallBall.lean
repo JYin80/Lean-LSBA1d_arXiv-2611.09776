@@ -1,5 +1,9 @@
-import LSBA.Gauss.ComplexAnnulus
-import LSBA.Gauss.QuadCharFun
+module
+
+public import LSBA.Gauss.ComplexAnnulus
+public import LSBA.Gauss.QuadCharFun
+
+@[expose] public section
 
 /-!
 # Small-ball bound for a weighted sum of shifted complex Gaussian moduli

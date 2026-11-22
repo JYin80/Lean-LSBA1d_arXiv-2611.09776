@@ -1,4 +1,8 @@
-import LSBA.Volume.LowerVolume
+module
+
+public import LSBA.Volume.LowerVolume
+
+@[expose] public section
 
 /-!
 # Scales of the lower-bound assembly

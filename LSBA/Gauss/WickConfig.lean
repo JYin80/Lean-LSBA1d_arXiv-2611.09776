@@ -1,6 +1,10 @@
-import LSBA.Transfer.ObsPoly
-import LSBA.Gauss.Wick
-import LSBA.Gauss.GUENormMoment
+module
+
+public import LSBA.Transfer.ObsPoly
+public import LSBA.Gauss.Wick
+public import LSBA.Gauss.GUENormMoment
+
+@[expose] public section
 
 /-!
 # Wick contraction of trace and marked-form configurations

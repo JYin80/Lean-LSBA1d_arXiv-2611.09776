@@ -1,4 +1,8 @@
-import LSBA.Upper.Operator
+module
+
+public import LSBA.Upper.Operator
+
+@[expose] public section
 
 /-!
 # Simultaneous unitary invariance

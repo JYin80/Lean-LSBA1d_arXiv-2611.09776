@@ -1,7 +1,11 @@
-import LSBA.Upper.SmallCut
-import LSBA.Upper.SmallScoreSmooth
-import LSBA.Upper.SmallPrefix
-import LSBA.Analysis.LineDerivMeas
+module
+
+public import LSBA.Upper.SmallCut
+public import LSBA.Upper.SmallScoreSmooth
+public import LSBA.Upper.SmallPrefix
+public import LSBA.Analysis.LineDerivMeas
+
+@[expose] public section
 
 /-!
 # The Gaussian divergence of the small-coupling field at a fixed preparation

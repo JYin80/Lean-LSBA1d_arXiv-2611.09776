@@ -1,5 +1,9 @@
-import LSBA.Upper.SmallChart
-import LSBA.Spectral.SpecProj
+module
+
+public import LSBA.Upper.SmallChart
+public import LSBA.Spectral.SpecProj
+
+@[expose] public section
 
 /-!
 # The construction of `K`

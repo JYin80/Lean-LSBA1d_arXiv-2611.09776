@@ -1,7 +1,11 @@
-import LSBA.Main.StieltjesCDF
-import LSBA.Main.RoughMean
-import LSBA.Spectral.EmpStieltjes
-import LSBA.Gauss.StdGauss
+module
+
+public import LSBA.Main.StieltjesCDF
+public import LSBA.Main.RoughMean
+public import LSBA.Spectral.EmpStieltjes
+public import LSBA.Gauss.StdGauss
+
+@[expose] public section
 
 /-!
 # The rough density law (Lemma 1.3 [lem:rough-density])

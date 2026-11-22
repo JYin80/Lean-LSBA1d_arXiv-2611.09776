@@ -1,5 +1,9 @@
-import LSBA.Transfer.AdaptedProduct
-import LSBA.Transfer.OneStep
+module
+
+public import LSBA.Transfer.AdaptedProduct
+public import LSBA.Transfer.OneStep
+
+@[expose] public section
 
 /-!
 # Comparison with the boundary frame

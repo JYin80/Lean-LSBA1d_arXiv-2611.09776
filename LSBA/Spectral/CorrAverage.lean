@@ -1,4 +1,8 @@
-import LSBA.Spectral.RankOne
+module
+
+public import LSBA.Spectral.RankOne
+
+@[expose] public section
 
 /-!
 # The finite-matrix spectral-averaging bound for the eigenfunction correlator

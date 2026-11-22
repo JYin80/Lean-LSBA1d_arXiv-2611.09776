@@ -1,5 +1,9 @@
-import LSBA.Sampling.AuxHierarchy
-import LSBA.Primitive.Tree
+module
+
+public import LSBA.Sampling.AuxHierarchy
+public import LSBA.Primitive.Tree
+
+@[expose] public section
 
 /-!
 # The orbital limit

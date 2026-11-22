@@ -1,6 +1,10 @@
-import LSBA.Transfer.Recurrence
-import LSBA.Transfer.Moments
-import LSBA.Spectral.ResolventBounds
+module
+
+public import LSBA.Transfer.Recurrence
+public import LSBA.Transfer.Moments
+public import LSBA.Spectral.ResolventBounds
+
+@[expose] public section
 
 /-!
 # Coarse resolvent moments

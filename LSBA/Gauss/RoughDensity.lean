@@ -1,6 +1,10 @@
-import LSBA.Gauss.Concentration
-import LSBA.Gauss.GUELaw
-import LSBA.Spectral.ResolventBounds
+module
+
+public import LSBA.Gauss.Concentration
+public import LSBA.Gauss.GUELaw
+public import LSBA.Spectral.ResolventBounds
+
+@[expose] public section
 
 /-!
 # Gaussian tools for the rough density law

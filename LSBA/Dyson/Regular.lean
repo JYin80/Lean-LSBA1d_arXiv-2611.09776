@@ -1,5 +1,9 @@
-import LSBA.Dyson.Density
-import LSBA.Dyson.Perturb
+module
+
+public import LSBA.Dyson.Density
+public import LSBA.Dyson.Perturb
+
+@[expose] public section
 
 /-!
 # Regularity of `m_g` (Lemma A.2 [bl:lem:regular])

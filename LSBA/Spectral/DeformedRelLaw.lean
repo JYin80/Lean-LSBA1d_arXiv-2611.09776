@@ -1,4 +1,8 @@
-import LSBA.Spectral.DeformedIsoLaw
+module
+
+public import LSBA.Spectral.DeformedIsoLaw
+
+@[expose] public section
 
 /-!
 # The relative local law

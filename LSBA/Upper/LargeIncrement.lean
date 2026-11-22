@@ -1,6 +1,10 @@
-import LSBA.Upper.LargeContract
-import LSBA.Transfer.Transition
-import LSBA.Gauss.GUENormMoment
+module
+
+public import LSBA.Upper.LargeContract
+public import LSBA.Transfer.Transition
+public import LSBA.Gauss.GUENormMoment
+
+@[expose] public section
 
 /-!
 # The mean increment

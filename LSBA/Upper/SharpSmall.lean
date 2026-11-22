@@ -1,7 +1,11 @@
-import LSBA.Upper.SharpSmallUnion
-import LSBA.Upper.Angular
-import LSBA.Upper.SmallContraction
-import LSBA.Upper.GoodBad
+module
+
+public import LSBA.Upper.SharpSmallUnion
+public import LSBA.Upper.Angular
+public import LSBA.Upper.SmallContraction
+public import LSBA.Upper.GoodBad
+
+@[expose] public section
 
 /-!
 # Theorem 3.2 [thm:sharp-small-upper]

@@ -1,5 +1,9 @@
-import LSBA.Spectral.EigCorr
-import LSBA.Spectral.Resolvent
+module
+
+public import LSBA.Spectral.EigCorr
+public import LSBA.Spectral.Resolvent
+
+@[expose] public section
 
 /-!
 # Rank-one perturbations of a Hermitian matrix at one diagonal entry

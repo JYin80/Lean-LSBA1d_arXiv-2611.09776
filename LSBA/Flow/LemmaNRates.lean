@@ -1,7 +1,11 @@
-import LSBA.Prop.Objects
-import LSBA.Loop.Generator
-import LSBA.Volume.LocalComparison
-import LSBA.Kernel.Weights
+module
+
+public import LSBA.Prop.Objects
+public import LSBA.Loop.Generator
+public import LSBA.Volume.LocalComparison
+public import LSBA.Kernel.Weights
+
+@[expose] public section
 
 /-!
 # Good-set rates for the mixed-pair bound

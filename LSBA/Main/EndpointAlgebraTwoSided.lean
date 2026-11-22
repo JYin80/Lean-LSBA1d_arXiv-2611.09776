@@ -1,5 +1,9 @@
-import LSBA.Main.EndpointAlgebra
-import LSBA.Spectral.TwoSidedCounts
+module
+
+public import LSBA.Main.EndpointAlgebra
+public import LSBA.Spectral.TwoSidedCounts
+
+@[expose] public section
 
 /-!
 # Endpoint algebra for both halves

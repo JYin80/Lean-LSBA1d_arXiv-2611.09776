@@ -1,6 +1,10 @@
-import LSBA.Upper.LargeCellCross
-import LSBA.Upper.LargeCellWeight
-import LSBA.Spectral.LineArea
+module
+
+public import LSBA.Upper.LargeCellCross
+public import LSBA.Upper.LargeCellWeight
+public import LSBA.Spectral.LineArea
+
+@[expose] public section
 
 /-!
 # Weighted averaging over one cell

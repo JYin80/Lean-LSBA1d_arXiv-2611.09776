@@ -1,4 +1,8 @@
-import LSBA.Gauss.GUELaw
+module
+
+public import LSBA.Gauss.GUELaw
+
+@[expose] public section
 
 /-!
 # The sum of squares `Σ_j ‖G_j y‖²` of a GUE family

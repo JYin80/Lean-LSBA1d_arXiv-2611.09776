@@ -1,5 +1,9 @@
-import LSBA.Gauss.BlockWindow
-import LSBA.Gauss.PrefixProduct
+module
+
+public import LSBA.Gauss.BlockWindow
+public import LSBA.Gauss.PrefixProduct
+
+@[expose] public section
 
 /-!
 # Events after a prefix of blocks

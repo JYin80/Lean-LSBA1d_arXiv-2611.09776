@@ -1,5 +1,9 @@
-import LSBA.Upper.SrcCutoff
-import LSBA.Gauss.NormTail
+module
+
+public import LSBA.Upper.SrcCutoff
+public import LSBA.Gauss.NormTail
+
+@[expose] public section
 
 /-!
 # The chain plateau of the cutoff

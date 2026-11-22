@@ -1,8 +1,12 @@
-import LSBA.Upper.PathMoment
-import LSBA.Upper.FracCyclePath
-import LSBA.Upper.FracConcentration
-import LSBA.Upper.TailUnion
-import LSBA.Spectral.OutlierCount
+module
+
+public import LSBA.Upper.PathMoment
+public import LSBA.Upper.FracCyclePath
+public import LSBA.Upper.FracConcentration
+public import LSBA.Upper.TailUnion
+public import LSBA.Spectral.OutlierCount
+
+@[expose] public section
 
 /-!
 # Theorem 3.1 [thm:strong-upper]: strong-disorder concentration

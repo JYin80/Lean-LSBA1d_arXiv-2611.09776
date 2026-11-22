@@ -1,5 +1,9 @@
-import LSBA.Sampling.Reach
-import LSBA.Transfer.Coarse
+module
+
+public import LSBA.Sampling.Reach
+public import LSBA.Transfer.Coarse
+
+@[expose] public section
 
 /-!
 # Crude moments at large coupling

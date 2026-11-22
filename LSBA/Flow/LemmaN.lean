@@ -1,6 +1,10 @@
-import LSBA.Flow.NoExitMul
-import LSBA.Flow.LemmaNRates
-import LSBA.Flow.LemmaNOffset
+module
+
+public import LSBA.Flow.NoExitMul
+public import LSBA.Flow.LemmaNRates
+public import LSBA.Flow.LemmaNOffset
+
+@[expose] public section
 
 /-!
 # The mixed-pair bound

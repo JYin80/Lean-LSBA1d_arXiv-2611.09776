@@ -1,5 +1,9 @@
-import LSBA.Prop.StepDefs
-import LSBA.Kernel.Scales
+module
+
+public import LSBA.Prop.StepDefs
+public import LSBA.Kernel.Scales
+
+@[expose] public section
 
 /-!
 # Resolvent comparison at two times (Lemma 5.11 [fo:lem:families])

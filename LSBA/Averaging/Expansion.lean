@@ -1,4 +1,8 @@
-import LSBA.Prop.Inputs
+module
+
+public import LSBA.Prop.Inputs
+
+@[expose] public section
 
 /-!
 # The Gaussian expansion of the residual

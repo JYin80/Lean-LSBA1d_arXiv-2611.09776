@@ -1,9 +1,13 @@
-import LSBA.Upper.BatchCutoff
-import LSBA.Upper.CircleSpeed
-import LSBA.Upper.LiftGeneral
-import LSBA.Upper.BatchSmooth
-import LSBA.Upper.FlagApprox
-import LSBA.Analysis.FlagDerivative
+module
+
+public import LSBA.Upper.BatchCutoff
+public import LSBA.Upper.CircleSpeed
+public import LSBA.Upper.LiftGeneral
+public import LSBA.Upper.BatchSmooth
+public import LSBA.Upper.FlagApprox
+public import LSBA.Analysis.FlagDerivative
+
+@[expose] public section
 
 /-!
 # The vertical bound in the lift form

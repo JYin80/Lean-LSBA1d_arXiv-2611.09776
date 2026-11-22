@@ -1,4 +1,8 @@
-import LSBA.Gauss.GUEMat
+module
+
+public import LSBA.Gauss.GUEMat
+
+@[expose] public section
 
 /-!
 # Splitting a GUE matrix along a row

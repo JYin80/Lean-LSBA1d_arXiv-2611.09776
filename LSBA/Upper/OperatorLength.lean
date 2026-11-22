@@ -1,5 +1,9 @@
-import LSBA.Upper.OperatorReduction
-import LSBA.Upper.ConversionEndpoint
+module
+
+public import LSBA.Upper.OperatorReduction
+public import LSBA.Upper.ConversionEndpoint
+
+@[expose] public section
 
 /-!
 # The transfer length

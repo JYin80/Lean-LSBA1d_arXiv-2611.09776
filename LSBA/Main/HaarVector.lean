@@ -1,5 +1,9 @@
-import LSBA.Main.CountMono
-import LSBA.Gauss.Sphere
+module
+
+public import LSBA.Main.CountMono
+public import LSBA.Gauss.Sphere
+
+@[expose] public section
 
 /-!
 # Common unitary conjugation

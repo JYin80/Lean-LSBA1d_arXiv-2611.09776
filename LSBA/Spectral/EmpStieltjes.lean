@@ -1,6 +1,10 @@
-import LSBA.Spectral.Counts
-import LSBA.Spectral.Resolvent
-import LSBA.Dyson.Stieltjes
+module
+
+public import LSBA.Spectral.Counts
+public import LSBA.Spectral.Resolvent
+public import LSBA.Dyson.Stieltjes
+
+@[expose] public section
 
 /-!
 # The empirical Stieltjes transform

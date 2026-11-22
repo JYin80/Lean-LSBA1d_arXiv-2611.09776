@@ -1,5 +1,9 @@
-import LSBA.Gauss.Heat
-import LSBA.Gauss.StdGauss
+module
+
+public import LSBA.Gauss.Heat
+public import LSBA.Gauss.StdGauss
+
+@[expose] public section
 
 /-!
 # The generator form of Itô's formula

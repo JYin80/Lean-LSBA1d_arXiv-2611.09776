@@ -1,5 +1,9 @@
-import LSBA.Upper.ScoreActive
-import LSBA.Gauss.BlockSplit
+module
+
+public import LSBA.Upper.ScoreActive
+public import LSBA.Gauss.BlockSplit
+
+@[expose] public section
 
 /-!
 # Lemma 9.4 [us:lem:score]: the Gaussian divergence of the constructed field

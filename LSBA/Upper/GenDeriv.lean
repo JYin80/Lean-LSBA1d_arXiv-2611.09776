@@ -1,5 +1,9 @@
-import LSBA.Upper.SmallGeneratorReg
-import LSBA.Upper.SmallGeneratorBounds
+module
+
+public import LSBA.Upper.SmallGeneratorReg
+public import LSBA.Upper.SmallGeneratorBounds
+
+@[expose] public section
 
 /-!
 # Derivatives of the generator in the source

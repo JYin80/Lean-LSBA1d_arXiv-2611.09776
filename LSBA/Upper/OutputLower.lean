@@ -1,7 +1,11 @@
-import LSBA.Upper.Buffer
-import LSBA.Upper.ChainBridge
-import LSBA.Upper.PrepGood
-import LSBA.Upper.CutLevels
+module
+
+public import LSBA.Upper.Buffer
+public import LSBA.Upper.ChainBridge
+public import LSBA.Upper.PrepGood
+public import LSBA.Upper.CutLevels
+
+@[expose] public section
 
 /-!
 # The lower bound for the transported normal

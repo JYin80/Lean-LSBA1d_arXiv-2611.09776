@@ -1,4 +1,8 @@
-import LSBA.Sampling.Transfer
+module
+
+public import LSBA.Sampling.Transfer
+
+@[expose] public section
 
 /-!
 # The common space of Lemma 7.5 [uvc:lem:space]

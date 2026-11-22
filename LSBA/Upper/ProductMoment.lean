@@ -1,6 +1,10 @@
-import LSBA.Upper.ProjExp
-import LSBA.Upper.RicChain
-import LSBA.Spectral.SchattenBand
+module
+
+public import LSBA.Upper.ProjExp
+public import LSBA.Upper.RicChain
+public import LSBA.Spectral.SchattenBand
+
+@[expose] public section
 
 /-!
 # The killed product moment

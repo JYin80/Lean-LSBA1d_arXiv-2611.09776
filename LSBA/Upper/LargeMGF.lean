@@ -1,4 +1,8 @@
-import LSBA.Upper.LargePositive
+module
+
+public import LSBA.Upper.LargePositive
+
+@[expose] public section
 
 /-!
 # The moment generating function of the corrected increment

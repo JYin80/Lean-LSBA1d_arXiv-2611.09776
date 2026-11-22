@@ -1,6 +1,10 @@
-import LSBA.Upper.ConversionEndpoint
-import LSBA.Upper.LargeTransfer
-import LSBA.Model.Cycle
+module
+
+public import LSBA.Upper.ConversionEndpoint
+public import LSBA.Upper.LargeTransfer
+public import LSBA.Model.Cycle
+
+@[expose] public section
 
 /-!
 # Fractional-moment predicates

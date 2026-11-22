@@ -1,5 +1,9 @@
-import LSBA.Upper.ConversionTail
-import LSBA.Transfer.Path
+module
+
+public import LSBA.Upper.ConversionTail
+public import LSBA.Transfer.Path
+
+@[expose] public section
 
 /-!
 # A priori fractional moments of resolvent blocks

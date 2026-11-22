@@ -1,4 +1,8 @@
-import LSBA.Upper.CenterIdeal
+module
+
+public import LSBA.Upper.CenterIdeal
+
+@[expose] public section
 
 /-!
 # The corrected observables

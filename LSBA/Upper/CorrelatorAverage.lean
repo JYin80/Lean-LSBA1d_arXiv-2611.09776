@@ -1,8 +1,12 @@
-import LSBA.Spectral.RankOneAverage
-import LSBA.Spectral.CorrAverage
-import LSBA.Gauss.AbsMoment
-import LSBA.Upper.Correlator
-import LSBA.Gauss.LineDecomp
+module
+
+public import LSBA.Spectral.RankOneAverage
+public import LSBA.Spectral.CorrAverage
+public import LSBA.Gauss.AbsMoment
+public import LSBA.Upper.Correlator
+public import LSBA.Gauss.LineDecomp
+
+@[expose] public section
 
 /-!
 # Spectral averaging of the eigenfunction correlator of the model

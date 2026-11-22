@@ -1,6 +1,10 @@
-import LSBA.Spectral.RankOne
-import LSBA.Spectral.RankOneCross
-import LSBA.Spectral.LineArea
+module
+
+public import LSBA.Spectral.RankOne
+public import LSBA.Spectral.RankOneCross
+public import LSBA.Spectral.LineArea
+
+@[expose] public section
 
 /-!
 # Spectral averaging for a rank-one diagonal perturbation

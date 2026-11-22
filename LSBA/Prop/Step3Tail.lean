@@ -1,6 +1,10 @@
-import LSBA.Prop.Step2
-import LSBA.Primitive.Early
-import LSBA.Primitive.Large
+module
+
+public import LSBA.Prop.Step2
+public import LSBA.Primitive.Early
+public import LSBA.Primitive.Large
+
+@[expose] public section
 
 /-!
 # Step 3 of the one-step propagation: tails

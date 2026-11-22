@@ -1,5 +1,9 @@
-import LSBA.Upper.SmallCutField
-import LSBA.Upper.ChosenGeneratorExists
+module
+
+public import LSBA.Upper.SmallCutField
+public import LSBA.Upper.ChosenGeneratorExists
+
+@[expose] public section
 
 /-!
 # Lemma 8.12 [up:lem:small-contraction]: Gaussian divergence bounds at small coupling

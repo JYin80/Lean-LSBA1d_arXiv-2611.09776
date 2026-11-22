@@ -1,4 +1,8 @@
-import LSBA.Gauss.Concentration
+module
+
+public import LSBA.Gauss.Concentration
+
+@[expose] public section
 
 /-!
 # Poincaré inequality with polynomial gradients

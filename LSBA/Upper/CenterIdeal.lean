@@ -1,4 +1,8 @@
-import LSBA.Upper.CenterWickAlg
+module
+
+public import LSBA.Upper.CenterWickAlg
+
+@[expose] public section
 
 /-!
 # Uniform polynomial expansions: the ideal property

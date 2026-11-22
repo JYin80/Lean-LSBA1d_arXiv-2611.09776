@@ -1,5 +1,9 @@
-import LSBA.Dyson.FreeGreen
-import LSBA.Dyson.Stieltjes
+module
+
+public import LSBA.Dyson.FreeGreen
+public import LSBA.Dyson.Stieltjes
+
+@[expose] public section
 
 /-!
 # Properties of the deterministic distribution

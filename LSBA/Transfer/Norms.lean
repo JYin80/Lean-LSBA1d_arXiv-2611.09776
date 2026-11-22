@@ -1,4 +1,8 @@
-import LSBA.Transfer.Basic
+module
+
+public import LSBA.Transfer.Basic
+
+@[expose] public section
 
 /-!
 # Norms of the free transfer matrices

@@ -1,4 +1,8 @@
-import LSBA.Model.Basic
+module
+
+public import LSBA.Model.Basic
+
+@[expose] public section
 
 /-!
 # Transfer matrices

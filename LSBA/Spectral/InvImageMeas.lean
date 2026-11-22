@@ -1,4 +1,8 @@
-import LSBA.Spectral.BorderInverse
+module
+
+public import LSBA.Spectral.BorderInverse
+
+@[expose] public section
 
 /-!
 # Measurability of inverse-image overlap events

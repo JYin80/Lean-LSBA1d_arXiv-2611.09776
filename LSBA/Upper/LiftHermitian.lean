@@ -1,4 +1,8 @@
-import LSBA.Upper.LiftSize
+module
+
+public import LSBA.Upper.LiftSize
+
+@[expose] public section
 
 /-!
 # The Hermitian lift away from zero energy

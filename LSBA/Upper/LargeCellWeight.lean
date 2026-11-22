@@ -1,5 +1,9 @@
-import LSBA.Upper.LargeCells
-import LSBA.Transfer.WeightLipschitz
+module
+
+public import LSBA.Upper.LargeCells
+public import LSBA.Transfer.WeightLipschitz
+
+@[expose] public section
 
 /-!
 # Weighted suprema of the cell weight along the scalar direction

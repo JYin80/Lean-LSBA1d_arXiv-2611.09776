@@ -1,5 +1,9 @@
-import LSBA.Gauss.GUE
-import LSBA.Upper.CoercivityMap
+module
+
+public import LSBA.Gauss.GUE
+public import LSBA.Upper.CoercivityMap
+
+@[expose] public section
 
 /-!
 # Block matrices, the real Hilbert–Schmidt product and Hermitian completeness

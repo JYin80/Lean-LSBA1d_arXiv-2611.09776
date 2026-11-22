@@ -1,8 +1,12 @@
-import LSBA.Prop.Increment
-import LSBA.Prop.RegimeBdd
-import LSBA.Prop.RegimeLarge
-import LSBA.Sampling.Reach
-import LSBA.Kernel.LargeIncrement
+module
+
+public import LSBA.Prop.Increment
+public import LSBA.Prop.RegimeBdd
+public import LSBA.Prop.RegimeLarge
+public import LSBA.Sampling.Reach
+public import LSBA.Kernel.LargeIncrement
+
+@[expose] public section
 
 /-!
 # The increment input on the bounded- and large-coupling base families

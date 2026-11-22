@@ -1,7 +1,11 @@
-import LSBA.Gauss.CGauss
-import LSBA.Gauss.Concentration
-import LSBA.Gauss.SphereNet
-import LSBA.Spectral.BorderInverse
+module
+
+public import LSBA.Gauss.CGauss
+public import LSBA.Gauss.Concentration
+public import LSBA.Gauss.SphereNet
+public import LSBA.Spectral.BorderInverse
+
+@[expose] public section
 
 /-!
 # Rectangular complex Gaussian matrices

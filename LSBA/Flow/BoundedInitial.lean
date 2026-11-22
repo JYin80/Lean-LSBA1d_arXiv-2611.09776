@@ -1,7 +1,11 @@
-import LSBA.Flow.Realization
-import LSBA.Loop.ErrorHierarchy
-import LSBA.Flow.Moment
-import LSBA.Primitive.Early
+module
+
+public import LSBA.Flow.Realization
+public import LSBA.Loop.ErrorHierarchy
+public import LSBA.Flow.Moment
+public import LSBA.Primitive.Early
+
+@[expose] public section
 
 /-!
 # Lemma 5.3 [fo:lem:bounded-initial] in fixed-time form

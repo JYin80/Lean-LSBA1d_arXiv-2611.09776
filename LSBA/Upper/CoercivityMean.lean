@@ -1,6 +1,10 @@
-import LSBA.Upper.CoercivityDecouple
-import LSBA.Upper.CoercivityTensor
-import LSBA.Gauss.LipschitzConc
+module
+
+public import LSBA.Upper.CoercivityDecouple
+public import LSBA.Upper.CoercivityTensor
+public import LSBA.Gauss.LipschitzConc
+
+@[expose] public section
 
 /-!
 # Mean bounds for `S_W` at `m = 128`

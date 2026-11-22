@@ -1,4 +1,8 @@
-import LSBA.Spectral.Measurability
+module
+
+public import LSBA.Spectral.Measurability
+
+@[expose] public section
 
 /-!
 # Spectral masses on a set of coordinates

@@ -1,5 +1,9 @@
-import LSBA.Spectral.BlockMask
-import LSBA.Gauss.ScalarDensity
+module
+
+public import LSBA.Spectral.BlockMask
+public import LSBA.Gauss.ScalarDensity
+
+@[expose] public section
 
 /-!
 # Walks on the cycle

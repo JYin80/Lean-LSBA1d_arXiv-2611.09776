@@ -1,5 +1,9 @@
-import LSBA.Upper.CenterCenters
-import LSBA.Analysis.PolyEvalBound
+module
+
+public import LSBA.Upper.CenterCenters
+public import LSBA.Analysis.PolyEvalBound
+
+@[expose] public section
 
 /-!
 # The corrector and the good set

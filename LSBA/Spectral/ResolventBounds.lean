@@ -1,4 +1,8 @@
-import LSBA.Spectral.Resolvent
+module
+
+public import LSBA.Spectral.Resolvent
+
+@[expose] public section
 
 /-!
 # Resolvent bounds

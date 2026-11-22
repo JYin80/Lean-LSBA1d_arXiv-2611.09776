@@ -1,4 +1,8 @@
-import LSBA.Prop.StepDefs
+module
+
+public import LSBA.Prop.StepDefs
+
+@[expose] public section
 
 /-!
 # Input statements of the general Theorem 5.12 [gc:thm:common]

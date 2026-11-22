@@ -1,5 +1,9 @@
-import LSBA.Transfer.StateChain
-import LSBA.Gauss.GUEContract
+module
+
+public import LSBA.Transfer.StateChain
+public import LSBA.Gauss.GUEContract
+
+@[expose] public section
 
 /-!
 # Contractions for the increment and the observables

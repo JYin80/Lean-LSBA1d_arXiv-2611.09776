@@ -1,4 +1,8 @@
-import LSBA.Flow.Moment
+module
+
+public import LSBA.Flow.Moment
+
+@[expose] public section
 
 /-!
 # The moment comparison iterated on short subintervals

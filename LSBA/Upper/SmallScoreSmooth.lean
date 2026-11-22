@@ -1,4 +1,8 @@
-import LSBA.Upper.ChosenGenerator
+module
+
+public import LSBA.Upper.ChosenGenerator
+
+@[expose] public section
 
 /-!
 # Smoothness of the cut field at a fixed preparation

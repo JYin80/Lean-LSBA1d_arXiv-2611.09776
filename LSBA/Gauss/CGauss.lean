@@ -1,5 +1,9 @@
-import LSBA.Gauss.StdGauss
-import LSBA.Spectral.BorderInverse
+module
+
+public import LSBA.Gauss.StdGauss
+public import LSBA.Spectral.BorderInverse
+
+@[expose] public section
 
 /-!
 # The standard complex Gaussian vector

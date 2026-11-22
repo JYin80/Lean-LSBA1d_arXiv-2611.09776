@@ -1,5 +1,9 @@
-import LSBA.Gauss.WickFamily
-import LSBA.Analysis.PairingNorm
+module
+
+public import LSBA.Gauss.WickFamily
+public import LSBA.Analysis.PairingNorm
+
+@[expose] public section
 
 /-!
 # Trace moments of GUE words as sums over pairings

@@ -1,9 +1,13 @@
-import LSBA.Averaging.Haar
-import LSBA.Averaging.Expansion
-import LSBA.Kernel.Vertical
-import LSBA.Sampling.Residual
-import LSBA.Prop.Domination
-import LSBA.Flow.Comparison
+module
+
+public import LSBA.Averaging.Haar
+public import LSBA.Averaging.Expansion
+public import LSBA.Kernel.Vertical
+public import LSBA.Sampling.Residual
+public import LSBA.Prop.Domination
+public import LSBA.Flow.Comparison
+
+@[expose] public section
 
 /-!
 # Moments on vertical lines

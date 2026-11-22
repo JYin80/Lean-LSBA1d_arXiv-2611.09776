@@ -1,6 +1,10 @@
-import LSBA.Upper.AngularNonconc
-import LSBA.Analysis.QuarticDeficit
-import LSBA.Transfer.CircleJacobian
+module
+
+public import LSBA.Upper.AngularNonconc
+public import LSBA.Analysis.QuarticDeficit
+public import LSBA.Transfer.CircleJacobian
+
+@[expose] public section
 
 /-!
 # The angular `L⁴` pairing

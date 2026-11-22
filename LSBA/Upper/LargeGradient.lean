@@ -1,6 +1,10 @@
-import LSBA.Upper.LargeGradState
-import LSBA.Upper.LargeCorrector
-import LSBA.Gauss.PoincarePoly
+module
+
+public import LSBA.Upper.LargeGradState
+public import LSBA.Upper.LargeCorrector
+public import LSBA.Gauss.PoincarePoly
+
+@[expose] public section
 
 /-!
 # Gradients and innovation variances

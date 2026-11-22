@@ -1,5 +1,9 @@
-import LSBA.Gauss.ScalarDensity
-import LSBA.Volume.LocalComparison
+module
+
+public import LSBA.Gauss.ScalarDensity
+public import LSBA.Volume.LocalComparison
+
+@[expose] public section
 
 /-!
 # Tail of resolvent blocks under scalar averaging

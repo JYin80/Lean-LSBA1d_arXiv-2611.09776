@@ -1,6 +1,10 @@
-import LSBA.Upper.SmallChart
-import LSBA.Analysis.SkewBasis
-import LSBA.Gauss.Divergence
+module
+
+public import LSBA.Upper.SmallChart
+public import LSBA.Analysis.SkewBasis
+public import LSBA.Gauss.Divergence
+
+@[expose] public section
 
 /-!
 # The statement of Lemma 9.3 [su:lem:chosen-generator]

@@ -1,4 +1,8 @@
-import LSBA.Gauss.Heat
+module
+
+public import LSBA.Gauss.Heat
+
+@[expose] public section
 
 /-!
 # Smooth cutoffs for the no-exit lemma

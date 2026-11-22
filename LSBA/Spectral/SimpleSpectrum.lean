@@ -1,5 +1,9 @@
-import LSBA.Model.Basic
-import LSBA.Spectral.PolyNull
+module
+
+public import LSBA.Model.Basic
+public import LSBA.Spectral.PolyNull
+
+@[expose] public section
 
 /-!
 # Almost surely simple spectrum

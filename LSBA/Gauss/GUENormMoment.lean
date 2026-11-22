@@ -1,4 +1,8 @@
-import LSBA.Gauss.NormTail
+module
+
+public import LSBA.Gauss.NormTail
+
+@[expose] public section
 
 /-!
 # Norm moments of a GUE block

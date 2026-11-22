@@ -1,5 +1,9 @@
-import LSBA.Upper.FieldGeometry
-import LSBA.Upper.ChosenGenerator
+module
+
+public import LSBA.Upper.FieldGeometry
+public import LSBA.Upper.ChosenGenerator
+
+@[expose] public section
 
 /-!
 # The cutoff and the field of Lemma 8.12 [up:lem:small-contraction]

@@ -1,4 +1,8 @@
-import LSBA.Dyson.Scalar
+module
+
+public import LSBA.Dyson.Scalar
+
+@[expose] public section
 
 /-!
 # Rough stability of the Dyson equation

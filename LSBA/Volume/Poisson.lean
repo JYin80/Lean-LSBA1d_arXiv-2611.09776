@@ -1,5 +1,9 @@
-import LSBA.Spectral.Resolvent
-import LSBA.Spectral.Counts
+module
+
+public import LSBA.Spectral.Resolvent
+public import LSBA.Spectral.Counts
+
+@[expose] public section
 
 /-!
 # Poisson smoothing of heavy spectral atoms

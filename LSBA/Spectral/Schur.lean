@@ -1,4 +1,8 @@
-import LSBA.Spectral.ResolventBounds
+module
+
+public import LSBA.Spectral.ResolventBounds
+
+@[expose] public section
 
 /-!
 # One-index Schur formulas

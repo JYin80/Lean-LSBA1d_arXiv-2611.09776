@@ -1,6 +1,10 @@
-import LSBA.Upper.PathWalk
-import LSBA.Upper.FracMoment
-import LSBA.Gauss.FreshBlock
+module
+
+public import LSBA.Upper.PathWalk
+public import LSBA.Upper.FracMoment
+public import LSBA.Gauss.FreshBlock
+
+@[expose] public section
 
 /-!
 # The path form of [PSSS, Theorem 1]

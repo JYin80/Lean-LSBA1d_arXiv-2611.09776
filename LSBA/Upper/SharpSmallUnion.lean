@@ -1,12 +1,16 @@
-import LSBA.Upper.ConversionEndpoint
-import LSBA.Upper.ConversionCycle
-import LSBA.Upper.CorrelatorDecay
-import LSBA.Upper.CorrelatorCount
-import LSBA.Upper.Interface
-import LSBA.Upper.OperatorLength
-import LSBA.Upper.OperatorIteration
-import LSBA.Upper.SharpSmallLength
-import LSBA.Analysis.LogAbsorb
+module
+
+public import LSBA.Upper.ConversionEndpoint
+public import LSBA.Upper.ConversionCycle
+public import LSBA.Upper.CorrelatorDecay
+public import LSBA.Upper.CorrelatorCount
+public import LSBA.Upper.Interface
+public import LSBA.Upper.OperatorLength
+public import LSBA.Upper.OperatorIteration
+public import LSBA.Upper.SharpSmallLength
+public import LSBA.Analysis.LogAbsorb
+
+@[expose] public section
 
 /-!
 # Theorem 3.2 [thm:sharp-small-upper] from the contraction in the two regimes

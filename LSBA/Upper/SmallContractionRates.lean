@@ -1,4 +1,8 @@
-import Mathlib
+module
+
+public import Mathlib
+
+@[expose] public section
 
 /-!
 # The exponents of Lemma 8.12 [up:lem:small-contraction]

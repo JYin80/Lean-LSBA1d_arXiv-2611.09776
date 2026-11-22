@@ -1,6 +1,10 @@
-import LSBA.Gauss.Net
-import LSBA.Gauss.StdGauss
-import LSBA.Model.Basic
+module
+
+public import LSBA.Gauss.Net
+public import LSBA.Gauss.StdGauss
+public import LSBA.Model.Basic
+
+@[expose] public section
 
 /-!
 # A crude operator-norm tail for one GUE block

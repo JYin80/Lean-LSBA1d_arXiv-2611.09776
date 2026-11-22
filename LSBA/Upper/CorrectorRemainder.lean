@@ -1,5 +1,9 @@
-import LSBA.Upper.CorrectorLinear
-import LSBA.Upper.CorrectorQ
+module
+
+public import LSBA.Upper.CorrectorLinear
+public import LSBA.Upper.CorrectorQ
+
+@[expose] public section
 
 /-!
 # The remainders of the linear expansions

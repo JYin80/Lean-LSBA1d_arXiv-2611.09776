@@ -1,6 +1,10 @@
-import LSBA.Spectral.LocalLawCompress
-import LSBA.Gauss.GaussProjection
-import LSBA.Gauss.GUEFirstRow
+module
+
+public import LSBA.Spectral.LocalLawCompress
+public import LSBA.Gauss.GaussProjection
+public import LSBA.Gauss.GUEFirstRow
+
+@[expose] public section
 
 /-!
 # The spectrum of a compressed GUE inverse

@@ -1,8 +1,12 @@
-import LSBA.Prop.Ward
-import LSBA.Primitive.Ward
-import LSBA.Loop.Projection
-import LSBA.Loop.Generator
-import LSBA.Prop.Objects
+module
+
+public import LSBA.Prop.Ward
+public import LSBA.Primitive.Ward
+public import LSBA.Loop.Projection
+public import LSBA.Loop.Generator
+public import LSBA.Prop.Objects
+
+@[expose] public section
 
 /-!
 # The signed Ward row of a loop error

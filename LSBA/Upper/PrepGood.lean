@@ -1,5 +1,9 @@
-import LSBA.Upper.PrepMeasure
-import LSBA.Upper.RegularState
+module
+
+public import LSBA.Upper.PrepMeasure
+public import LSBA.Upper.RegularState
+
+@[expose] public section
 
 /-!
 # The prepared estimates

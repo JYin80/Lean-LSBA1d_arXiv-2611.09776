@@ -1,5 +1,9 @@
-import LSBA.Upper.LieAlgebra
-import LSBA.Transfer.VolCocycle
+module
+
+public import LSBA.Upper.LieAlgebra
+public import LSBA.Transfer.VolCocycle
+
+@[expose] public section
 
 /-!
 # The direction of a flag

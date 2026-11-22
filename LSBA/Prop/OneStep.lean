@@ -1,4 +1,8 @@
-import LSBA.Prop.Step45
+module
+
+public import LSBA.Prop.Step45
+
+@[expose] public section
 
 /-!
 # Theorem 5.12(i) [gc:thm:common]: one step

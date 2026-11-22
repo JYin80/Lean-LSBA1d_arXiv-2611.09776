@@ -1,5 +1,9 @@
-import LSBA.Upper.PrepGood
-import LSBA.Spectral.DeformedRelLaw
+module
+
+public import LSBA.Upper.PrepGood
+public import LSBA.Spectral.DeformedRelLaw
+
+@[expose] public section
 
 /-!
 # Preparation of the incoming flag at weak coupling

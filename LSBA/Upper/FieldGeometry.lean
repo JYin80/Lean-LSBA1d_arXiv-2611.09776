@@ -1,6 +1,10 @@
-import LSBA.Upper.SmallChart
-import LSBA.Upper.AngularField
-import LSBA.Analysis.FlagDerivativeRot
+module
+
+public import LSBA.Upper.SmallChart
+public import LSBA.Upper.AngularField
+public import LSBA.Analysis.FlagDerivativeRot
+
+@[expose] public section
 
 /-!
 # Lemma 9.2 [su:lem:field-geometry]: the constructed field satisfies the geometric conditions

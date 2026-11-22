@@ -1,4 +1,8 @@
-import LSBA.Transfer.AdaptedProduct
+module
+
+public import LSBA.Transfer.AdaptedProduct
+
+@[expose] public section
 
 /-!
 # The state chain

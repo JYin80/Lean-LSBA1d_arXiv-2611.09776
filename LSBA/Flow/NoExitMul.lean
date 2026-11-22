@@ -1,6 +1,10 @@
-import LSBA.Gauss.HeatGenerator
-import LSBA.Flow.Comparison
-import LSBA.Flow.Cutoff
+module
+
+public import LSBA.Gauss.HeatGenerator
+public import LSBA.Flow.Comparison
+public import LSBA.Flow.Cutoff
+
+@[expose] public section
 
 /-!
 # The no-exit lemma with multiplicative rates

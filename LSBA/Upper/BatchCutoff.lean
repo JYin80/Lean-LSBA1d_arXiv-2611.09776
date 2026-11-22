@@ -1,5 +1,9 @@
-import LSBA.Upper.Operator
-import LSBA.Transfer.Cofactor
+module
+
+public import LSBA.Upper.Operator
+public import LSBA.Transfer.Cofactor
+
+@[expose] public section
 
 /-!
 # The cutoff of a transfer batch

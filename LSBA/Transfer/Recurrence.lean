@@ -1,7 +1,11 @@
-import LSBA.Transfer.Basic
-import LSBA.Gauss.GUE
-import LSBA.Volume.LocalComparison
-import LSBA.Spectral.Resolvent
+module
+
+public import LSBA.Transfer.Basic
+public import LSBA.Gauss.GUE
+public import LSBA.Volume.LocalComparison
+public import LSBA.Spectral.Resolvent
+
+@[expose] public section
 
 /-!
 # The transfer recurrence

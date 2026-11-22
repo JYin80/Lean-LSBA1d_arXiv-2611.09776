@@ -1,5 +1,9 @@
-import LSBA.Gauss.LineDecomp
-import LSBA.Spectral.Resolvent
+module
+
+public import LSBA.Gauss.LineDecomp
+public import LSBA.Spectral.Resolvent
+
+@[expose] public section
 
 /-!
 # Scalar density bounds and almost-sure invertibility

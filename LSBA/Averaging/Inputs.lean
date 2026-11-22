@@ -1,8 +1,12 @@
-import LSBA.Averaging.Haar
-import LSBA.Averaging.Expansion
-import LSBA.Sampling.Inputs
-import LSBA.Prop.Domination
-import LSBA.Flow.Comparison
+module
+
+public import LSBA.Averaging.Haar
+public import LSBA.Averaging.Expansion
+public import LSBA.Sampling.Inputs
+public import LSBA.Prop.Domination
+public import LSBA.Flow.Comparison
+
+@[expose] public section
 
 /-!
 # The averaging inputs

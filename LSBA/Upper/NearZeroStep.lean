@@ -1,8 +1,12 @@
-import LSBA.Upper.CorrectorQ
-import LSBA.Upper.CenterInnovation
-import LSBA.Upper.LargeGradient
-import LSBA.Upper.LargeIncrement
-import LSBA.Analysis.ExpMoment
+module
+
+public import LSBA.Upper.CorrectorQ
+public import LSBA.Upper.CenterInnovation
+public import LSBA.Upper.LargeGradient
+public import LSBA.Upper.LargeIncrement
+public import LSBA.Analysis.ExpMoment
+
+@[expose] public section
 
 /-!
 # One-step exponential moments near zero energy

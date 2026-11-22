@@ -1,4 +1,8 @@
-import LSBA.Upper.SrcCutoffPoint
+module
+
+public import LSBA.Upper.SrcCutoffPoint
+
+@[expose] public section
 
 /-!
 # The source-derivative cost of the cutoff

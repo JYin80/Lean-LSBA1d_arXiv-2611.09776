@@ -1,4 +1,8 @@
-import LSBA.Sampling.Transfer
+module
+
+public import LSBA.Sampling.Transfer
+
+@[expose] public section
 
 /-!
 # Prefix moments and close cells

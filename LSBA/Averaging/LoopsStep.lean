@@ -1,8 +1,12 @@
-import LSBA.Averaging.LoopRows
-import LSBA.Averaging.LoopField
-import LSBA.Flow.MomentIter
-import LSBA.Averaging.Branch
-import LSBA.Sampling.Lemma48
+module
+
+public import LSBA.Averaging.LoopRows
+public import LSBA.Averaging.LoopField
+public import LSBA.Flow.MomentIter
+public import LSBA.Averaging.Branch
+public import LSBA.Sampling.Lemma48
+
+@[expose] public section
 
 /-!
 # One step of the loop-error induction of Lemma 5.6 [fo:prop:inputs]

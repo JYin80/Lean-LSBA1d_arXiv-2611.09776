@@ -1,7 +1,11 @@
-import LSBA.Loop.ProjField
-import LSBA.Loop.WardRow
-import LSBA.Kernel.Restore
-import LSBA.Loop.SourceTail
+module
+
+public import LSBA.Loop.ProjField
+public import LSBA.Loop.WardRow
+public import LSBA.Kernel.Restore
+public import LSBA.Loop.SourceTail
+
+@[expose] public section
 
 /-!
 # Deterministic rates of the propagated loop-error fields of Step 3

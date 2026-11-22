@@ -1,5 +1,9 @@
-import LSBA.Spectral.DeformedOffDiagLaw
-import LSBA.Gauss.RademacherChaos
+module
+
+public import LSBA.Spectral.DeformedOffDiagLaw
+public import LSBA.Gauss.RademacherChaos
+
+@[expose] public section
 
 /-!
 # The isotropic local law

@@ -1,5 +1,9 @@
-import LSBA.Gauss.Concentration
-import LSBA.Analysis.Mollify
+module
+
+public import LSBA.Gauss.Concentration
+public import LSBA.Analysis.Mollify
+
+@[expose] public section
 
 /-!
 # Gaussian concentration for Lipschitz functions

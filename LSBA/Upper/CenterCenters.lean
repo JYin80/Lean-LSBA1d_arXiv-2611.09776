@@ -1,4 +1,8 @@
-import LSBA.Upper.CenterUpdate
+module
+
+public import LSBA.Upper.CenterUpdate
+
+@[expose] public section
 
 /-!
 # The trace centers

@@ -1,7 +1,11 @@
-import LSBA.Primitive.Ward
-import LSBA.Primitive.Symm
-import LSBA.Kernel.Bounded
-import LSBA.Kernel.Large
+module
+
+public import LSBA.Primitive.Ward
+public import LSBA.Primitive.Symm
+public import LSBA.Kernel.Bounded
+public import LSBA.Kernel.Large
+
+@[expose] public section
 
 /-!
 # Primitive loops: stable molecules

@@ -1,5 +1,9 @@
-import LSBA.Transfer.Frames
-import LSBA.Transfer.OneStep
+module
+
+public import LSBA.Transfer.Frames
+public import LSBA.Transfer.OneStep
+
+@[expose] public section
 
 /-!
 # The indefinite unitary group of `J`

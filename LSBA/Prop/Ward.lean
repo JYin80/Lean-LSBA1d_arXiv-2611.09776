@@ -1,5 +1,9 @@
-import LSBA.Loop.Basic
-import LSBA.Spectral.ResolventBounds
+module
+
+public import LSBA.Loop.Basic
+public import LSBA.Spectral.ResolventBounds
+
+@[expose] public section
 
 /-!
 # The mixed Ward identity for resolvent loops

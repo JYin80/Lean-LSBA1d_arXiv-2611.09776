@@ -1,4 +1,8 @@
-import LSBA.Spectral.SpecProj
+module
+
+public import LSBA.Spectral.SpecProj
+
+@[expose] public section
 
 /-!
 # Smoothness of a spectral projection across a gap

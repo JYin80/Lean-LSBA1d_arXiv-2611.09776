@@ -1,4 +1,8 @@
-import LSBA.Gauss.FreshBlock
+module
+
+public import LSBA.Gauss.FreshBlock
+
+@[expose] public section
 
 /-!
 # Events of one fresh GUE block

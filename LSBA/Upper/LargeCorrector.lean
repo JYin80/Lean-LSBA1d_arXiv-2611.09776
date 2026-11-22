@@ -1,6 +1,10 @@
-import LSBA.Upper.LargeMeanM
-import LSBA.Upper.LargeMeanF
-import LSBA.Upper.LargeZeroNoise
+module
+
+public import LSBA.Upper.LargeMeanM
+public import LSBA.Upper.LargeMeanF
+public import LSBA.Upper.LargeZeroNoise
+
+@[expose] public section
 
 /-!
 # The corrected observables

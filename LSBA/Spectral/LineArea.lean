@@ -1,4 +1,8 @@
-import LSBA.Spectral.EigMass
+module
+
+public import LSBA.Spectral.EigMass
+
+@[expose] public section
 
 /-!
 # The area inequality along a line of Hermitian matrices

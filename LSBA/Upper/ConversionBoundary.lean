@@ -1,5 +1,9 @@
-import LSBA.Transfer.Path
-import LSBA.Transfer.BoundaryFrame
+module
+
+public import LSBA.Transfer.Path
+public import LSBA.Transfer.BoundaryFrame
+
+@[expose] public section
 
 /-!
 # Boundary comparison

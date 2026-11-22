@@ -1,5 +1,9 @@
-import LSBA.Upper.LiftHermitian
-import LSBA.Upper.LiftGeneral
+module
+
+public import LSBA.Upper.LiftHermitian
+public import LSBA.Upper.LiftGeneral
+
+@[expose] public section
 
 /-!
 # Lemma 10.1 [lem:c-gaussian-lift] away from zero energy

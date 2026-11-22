@@ -1,6 +1,10 @@
-import LSBA.Transfer.OneStep
-import LSBA.Gauss.BlockSplit
-import LSBA.Gauss.Net
+module
+
+public import LSBA.Transfer.OneStep
+public import LSBA.Gauss.BlockSplit
+public import LSBA.Gauss.Net
+
+@[expose] public section
 
 /-!
 # Transfer moments on scattering-length windows

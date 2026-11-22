@@ -1,8 +1,12 @@
-import LSBA.Gauss.RoughDensity
-import LSBA.Gauss.GUELaw
-import LSBA.Spectral.ResolventBounds
-import LSBA.Dyson.RoughStability
-import LSBA.Kernel.Root
+module
+
+public import LSBA.Gauss.RoughDensity
+public import LSBA.Gauss.GUELaw
+public import LSBA.Spectral.ResolventBounds
+public import LSBA.Dyson.RoughStability
+public import LSBA.Kernel.Root
+
+@[expose] public section
 
 /-!
 # The mean comparison of Appendix D.2 [sec:rough-density-proof]

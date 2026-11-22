@@ -1,4 +1,8 @@
-import LSBA.Dyson.Distribution
+module
+
+public import LSBA.Dyson.Distribution
+
+@[expose] public section
 
 /-!
 # Lemma 1.2 [da:lem:distribution]: spectral windows of the limiting distribution

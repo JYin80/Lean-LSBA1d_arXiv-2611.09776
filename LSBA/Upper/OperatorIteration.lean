@@ -1,6 +1,10 @@
-import LSBA.Upper.OperatorInvariance
-import LSBA.Transfer.CircleMeasure
-import LSBA.Analysis.SplitIterate
+module
+
+public import LSBA.Upper.OperatorInvariance
+public import LSBA.Transfer.CircleMeasure
+public import LSBA.Analysis.SplitIterate
+
+@[expose] public section
 
 /-!
 # From angular contraction to power decay

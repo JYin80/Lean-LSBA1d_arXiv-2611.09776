@@ -1,8 +1,12 @@
-import LSBA.Gauss.HeatGenerator
-import LSBA.Gauss.GUE
-import LSBA.Spectral.ResolventBounds
-import LSBA.Loop.Basic
-import LSBA.Kernel.Defs
+module
+
+public import LSBA.Gauss.HeatGenerator
+public import LSBA.Gauss.GUE
+public import LSBA.Spectral.ResolventBounds
+public import LSBA.Loop.Basic
+public import LSBA.Kernel.Defs
+
+@[expose] public section
 
 /-!
 # The generator form of Itô's formula on the Hermitian block slice

@@ -1,6 +1,10 @@
-import LSBA.Gauss.GUETop
-import LSBA.Gauss.LipschitzConc
-import LSBA.Gauss.GUENormMoment
+module
+
+public import LSBA.Gauss.GUETop
+public import LSBA.Gauss.LipschitzConc
+public import LSBA.Gauss.GUENormMoment
+
+@[expose] public section
 
 /-!
 # Sharp operator-norm tail and moments of a GUE block

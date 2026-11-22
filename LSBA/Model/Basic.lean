@@ -1,4 +1,9 @@
-import Mathlib
+module
+
+public import Mathlib
+public import LSBA.MainDefs
+
+@[expose] public section
 
 /-!
 # The block Anderson model
@@ -16,45 +21,6 @@ noncomputable section
 open scoped Classical
 
 namespace LSBA
-
-/-- Sample space of the `L` independent GUE blocks of size `W`, in real coordinates,
-(1.2) [eq:covariance]. -/
-abbrev Ω (W L : ℕ) : Type := Fin L × Fin W × Fin W → ℝ
-
-/-- Product of standard real Gaussians on `Ω W L`. -/
-def μ (W L : ℕ) : Measure (Ω W L) := Measure.pi fun _ => gaussianReal 0 1
-
-instance (W L : ℕ) : IsProbabilityMeasure (μ W L) := by unfold μ; infer_instance
-
-/-- Block `a` of the GUE matrix, (1.2) [eq:covariance]: diagonal `N(0,1/W)`, real and
-imaginary parts of upper entries independent `N(0,1/(2W))`. -/
-def gueBlock (W L : ℕ) (ω : Ω W L) (a : Fin L) : Matrix (Fin W) (Fin W) ℂ :=
-  Matrix.of fun α β =>
-    if α = β then (ω (a, α, α) : ℂ) / Real.sqrt W
-    else if α < β then ((ω (a, α, β) : ℂ) + Complex.I * ω (a, β, α)) / Real.sqrt (2 * W)
-    else ((ω (a, β, α) : ℂ) - Complex.I * ω (a, α, β)) / Real.sqrt (2 * W)
-
-/-- `A_L = S + S⁻¹` with `S` the cyclic shift of `ℤ_L`: `(A_L f)(a) = f(a+1) + f(a-1)`,
-(1.3) [eq:model], for every `L`. -/
-def cycleAdj (L : ℕ) : Matrix (Fin L) (Fin L) ℂ :=
-  Matrix.of fun a b =>
-    (if b.val = (a.val + 1) % L then 1 else 0) + (if a.val = (b.val + 1) % L then 1 else 0)
-
-/-- Block-diagonal operator `diag(V_a : a ∈ ℤ_L)` on `ℂ^L ⊗ ℂ^W`. -/
-def blockDiagOp {W L : ℕ} (V : Fin L → Matrix (Fin W) (Fin W) ℂ) :
-    Matrix (Fin L × Fin W) (Fin L × Fin W) ℂ :=
-  Matrix.of fun p q => if p.1 = q.1 then V p.1 p.2 q.2 else 0
-
-/-- Deterministic block operator `(g A_L ⊗ I_W + diag V) / max{1,g}`, (1.3) [eq:model] and
-(1.4) [eq:blockaction]. -/
-def Hdet (g : ℝ) {W L : ℕ} (V : Fin L → Matrix (Fin W) (Fin W) ℂ) :
-    Matrix (Fin L × Fin W) (Fin L × Fin W) ℂ :=
-  ((max 1 g : ℝ)⁻¹ : ℂ) • ((g : ℂ) • (cycleAdj L ⊗ₖ (1 : Matrix (Fin W) (Fin W) ℂ)) +
-    blockDiagOp V)
-
-/-- The random model `H_{g,W,L}` of (1.3) [eq:model]. -/
-def Hmat (g : ℝ) (W L : ℕ) (ω : Ω W L) : Matrix (Fin L × Fin W) (Fin L × Fin W) ℂ :=
-  Hdet g (gueBlock W L ω)
 
 /-- `A_g = g A_L / max{1,g}`, the hopping part of (5.1) [fo:eq:flow]. -/
 def Ag (g : ℝ) (L : ℕ) : Matrix (Fin L) (Fin L) ℂ := ((g / max 1 g : ℝ) : ℂ) • cycleAdj L

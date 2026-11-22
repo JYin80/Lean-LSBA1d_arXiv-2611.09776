@@ -1,10 +1,14 @@
-import LSBA.Upper.FracCriterion
-import LSBA.Upper.FracLocal
-import LSBA.Upper.OperatorLength
-import LSBA.Upper.OperatorIteration
-import LSBA.Upper.GoodBad
-import LSBA.Upper.DensityContraction
-import LSBA.Upper.Angular
+module
+
+public import LSBA.Upper.FracCriterion
+public import LSBA.Upper.FracLocal
+public import LSBA.Upper.OperatorLength
+public import LSBA.Upper.OperatorIteration
+public import LSBA.Upper.GoodBad
+public import LSBA.Upper.DensityContraction
+public import LSBA.Upper.Angular
+
+@[expose] public section
 
 /-!
 # Fixed-energy fractional moments below `g = W`

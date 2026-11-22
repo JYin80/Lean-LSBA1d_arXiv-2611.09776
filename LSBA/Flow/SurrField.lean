@@ -1,6 +1,10 @@
-import LSBA.Flow.Surrogate
-import LSBA.Prop.Objects
-import LSBA.Loop.ErrorHierarchy
+module
+
+public import LSBA.Flow.Surrogate
+public import LSBA.Prop.Objects
+public import LSBA.Loop.ErrorHierarchy
+
+@[expose] public section
 
 /-!
 # The surrogate field of the mixed-pair errors

@@ -1,4 +1,8 @@
-import LSBA.Transfer.Transition
+module
+
+public import LSBA.Transfer.Transition
+
+@[expose] public section
 
 /-!
 # Products along the state chain with time-dependent factors

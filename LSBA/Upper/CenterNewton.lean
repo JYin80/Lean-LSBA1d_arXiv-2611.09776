@@ -1,4 +1,8 @@
-import LSBA.Upper.CenterCenters
+module
+
+public import LSBA.Upper.CenterCenters
+
+@[expose] public section
 
 /-!
 # Bounds for the trace centers

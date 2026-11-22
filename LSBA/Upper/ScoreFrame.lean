@@ -1,6 +1,10 @@
-import LSBA.Upper.ChosenGenerator
-import LSBA.Gauss.RotationDiv
-import LSBA.Analysis.ComplexMatrix
+module
+
+public import LSBA.Upper.ChosenGenerator
+public import LSBA.Gauss.RotationDiv
+public import LSBA.Analysis.ComplexMatrix
+
+@[expose] public section
 
 /-!
 # The rotation frame of the active inputs

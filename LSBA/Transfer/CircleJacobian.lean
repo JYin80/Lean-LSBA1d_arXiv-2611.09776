@@ -1,5 +1,9 @@
-import LSBA.Transfer.CircleMeasure
-import LSBA.Transfer.VolCocycle
+module
+
+public import LSBA.Transfer.CircleMeasure
+public import LSBA.Transfer.VolCocycle
+
+@[expose] public section
 
 /-!
 # The angular Jacobian

@@ -1,5 +1,9 @@
-import LSBA.Transfer.Basic
-import LSBA.Transfer.Frames
+module
+
+public import LSBA.Transfer.Basic
+public import LSBA.Transfer.Frames
+
+@[expose] public section
 
 /-!
 # Normal coordinates and the one-step update

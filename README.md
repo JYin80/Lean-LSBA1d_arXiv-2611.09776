@@ -76,3 +76,15 @@ from the paper.
 The code is released under the Apache License 2.0; see [`LICENSE`](LICENSE).
 
 Paper: Jun Yin. Lean formalization: Jun Yin, with Claude Opus 5.5 and Claude Sonnet 5.5 (Anthropic).
+
+## Palomar
+
+The repository is laid out for the [Palomar registry](https://palomar-registry.org/) of Lean-verified mathematics.
+All source files use Lean's module system. [`LSBA/MainDefs.lean`](LSBA/MainDefs.lean) holds every definition used by
+the statements of Theorem 1.4 and Corollary 1.5 and depends on Mathlib only; [`Challenge.lean`](Challenge.lean) is the
+statement to audit (it imports Mathlib only and repeats `LSBA/MainDefs.lean` verbatim),
+[`Solution.lean`](Solution.lean) proves it from the library, [`comparator.json`](comparator.json) names the compared
+theorems and [`formalization.yaml`](formalization.yaml) holds the metadata. `lake build` also builds `Challenge.lean`
+(two `sorry` warnings, by design) and `Solution.lean`. `python3 scripts/check-lean-sources.py` and
+`./scripts/verify-comparator.sh` (Linux, needs `bwrap`) run the checks locally; submissions go to
+<https://submit.palomar-registry.org/>.

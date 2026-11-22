@@ -1,5 +1,9 @@
-import LSBA.Upper.OperatorSemigroup
-import LSBA.Transfer.Cofactor
+module
+
+public import LSBA.Upper.OperatorSemigroup
+public import LSBA.Transfer.Cofactor
+
+@[expose] public section
 
 /-!
 # From the operator to the frame moments

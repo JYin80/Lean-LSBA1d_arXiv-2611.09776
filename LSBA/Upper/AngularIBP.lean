@@ -1,6 +1,10 @@
-import LSBA.Upper.AngularField
-import LSBA.Upper.InvariantApprox
-import LSBA.Upper.BatchSmooth
+module
+
+public import LSBA.Upper.AngularField
+public import LSBA.Upper.InvariantApprox
+public import LSBA.Upper.BatchSmooth
+
+@[expose] public section
 
 /-!
 # Gaussian integration by parts for the angular ratio

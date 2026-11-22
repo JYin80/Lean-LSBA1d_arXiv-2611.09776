@@ -1,6 +1,10 @@
-import LSBA.Dyson.FreeGreen
-import LSBA.Dyson.FiniteCycle
-import LSBA.Dyson.Distribution
+module
+
+public import LSBA.Dyson.FreeGreen
+public import LSBA.Dyson.FiniteCycle
+public import LSBA.Dyson.Distribution
+
+@[expose] public section
 
 /-!
 # Line and cycle Dyson solutions: perturbation

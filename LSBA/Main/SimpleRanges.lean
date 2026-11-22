@@ -1,5 +1,9 @@
-import LSBA.Main.HaarVector
-import LSBA.Spectral.SimpleSpectrum
+module
+
+public import LSBA.Main.HaarVector
+public import LSBA.Spectral.SimpleSpectrum
+
+@[expose] public section
 
 /-!
 # Unitary invariance and short cycles

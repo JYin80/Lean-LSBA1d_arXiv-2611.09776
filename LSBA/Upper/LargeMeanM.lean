@@ -1,6 +1,10 @@
-import LSBA.Transfer.Transition
-import LSBA.Gauss.GUEContract
-import LSBA.Gauss.GUENormMoment
+module
+
+public import LSBA.Transfer.Transition
+public import LSBA.Gauss.GUEContract
+public import LSBA.Gauss.GUENormMoment
+
+@[expose] public section
 
 /-!
 # The mean of the first matrix observable

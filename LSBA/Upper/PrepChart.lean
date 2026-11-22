@@ -1,4 +1,8 @@
-import LSBA.Upper.SmallChart
+module
+
+public import LSBA.Upper.SmallChart
+
+@[expose] public section
 
 /-!
 # The prepared chart

@@ -1,5 +1,9 @@
-import LSBA.Final.MatchLarge
-import LSBA.Prop.Theorem412
+module
+
+public import LSBA.Final.MatchLarge
+public import LSBA.Prop.Theorem412
+
+@[expose] public section
 
 /-!
 # Large-coupling resolvent moments

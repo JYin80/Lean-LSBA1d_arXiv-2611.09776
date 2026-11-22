@@ -1,4 +1,8 @@
-import LSBA.Gauss.QuadSmallBall
+module
+
+public import LSBA.Gauss.QuadSmallBall
+
+@[expose] public section
 
 /-!
 # Ratio of `‖Q x‖` to a centred quadratic form

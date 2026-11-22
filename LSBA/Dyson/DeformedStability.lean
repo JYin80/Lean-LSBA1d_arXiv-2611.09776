@@ -1,4 +1,8 @@
-import LSBA.Dyson.Deformed
+module
+
+public import LSBA.Dyson.Deformed
+
+@[expose] public section
 
 /-!
 # Stability of the deformed equation

@@ -1,4 +1,8 @@
-import LSBA.Upper.CoercivityMean
+module
+
+public import LSBA.Upper.CoercivityMean
+
+@[expose] public section
 
 /-!
 # The small-singular-value bound (G.11) [cg:eq:SG]

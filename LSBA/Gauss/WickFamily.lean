@@ -1,5 +1,9 @@
-import LSBA.Gauss.Wick
-import LSBA.Gauss.BlockSplit
+module
+
+public import LSBA.Gauss.Wick
+public import LSBA.Gauss.BlockSplit
+
+@[expose] public section
 
 /-!
 # Wick recursion for a family of independent GUE blocks

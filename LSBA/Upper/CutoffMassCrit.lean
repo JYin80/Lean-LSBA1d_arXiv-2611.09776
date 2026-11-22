@@ -1,7 +1,11 @@
-import LSBA.Upper.CutoffChainTail
-import LSBA.Upper.ActiveChainTail
-import LSBA.Upper.OverlapCrit
-import LSBA.Upper.OutputLower
+module
+
+public import LSBA.Upper.CutoffChainTail
+public import LSBA.Upper.ActiveChainTail
+public import LSBA.Upper.OverlapCrit
+public import LSBA.Upper.OutputLower
+
+@[expose] public section
 
 /-!
 # The mass of the cutoff in regime (ii)

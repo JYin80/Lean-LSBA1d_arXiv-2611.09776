@@ -1,6 +1,10 @@
-import LSBA.Upper.RegularState
-import LSBA.Upper.RicChain
-import LSBA.Spectral.DeformedRelLaw
+module
+
+public import LSBA.Upper.RegularState
+public import LSBA.Upper.RicChain
+public import LSBA.Spectral.DeformedRelLaw
+
+@[expose] public section
 
 /-!
 # The buffered product lower bound

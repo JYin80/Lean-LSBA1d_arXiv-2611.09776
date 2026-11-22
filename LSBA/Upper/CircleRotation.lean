@@ -1,5 +1,9 @@
-import LSBA.Transfer.CircleMeasure
-import LSBA.Upper.LieAlgebra
+module
+
+public import LSBA.Transfer.CircleMeasure
+public import LSBA.Upper.LieAlgebra
+
+@[expose] public section
 
 /-!
 # The rotation of a circle of isotropic extensions

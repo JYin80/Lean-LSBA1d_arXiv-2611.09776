@@ -1,6 +1,10 @@
-import LSBA.Upper.CenterCorrector
-import LSBA.Upper.NearZeroStep
-import LSBA.Transfer.ChainProduct
+module
+
+public import LSBA.Upper.CenterCorrector
+public import LSBA.Upper.NearZeroStep
+public import LSBA.Transfer.ChainProduct
+
+@[expose] public section
 
 /-!
 # Scalar growth near zero energy

@@ -1,7 +1,11 @@
-import LSBA.Prop.Inputs
-import LSBA.Prop.Comparison
-import LSBA.Prop.Domination
-import LSBA.Flow.Comparison
+module
+
+public import LSBA.Prop.Inputs
+public import LSBA.Prop.Comparison
+public import LSBA.Prop.Domination
+public import LSBA.Flow.Comparison
+
+@[expose] public section
 
 /-!
 # Step 1 of the one-step propagation

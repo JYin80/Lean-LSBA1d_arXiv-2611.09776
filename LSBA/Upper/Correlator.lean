@@ -1,4 +1,8 @@
-import LSBA.Spectral.EigCorr
+module
+
+public import LSBA.Spectral.EigCorr
+
+@[expose] public section
 
 /-!
 # Block correlators of the model

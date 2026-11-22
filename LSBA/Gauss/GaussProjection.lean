@@ -1,5 +1,9 @@
-import LSBA.Gauss.RectGaussQuad
-import LSBA.Spectral.InvSpectrum
+module
+
+public import LSBA.Gauss.RectGaussQuad
+public import LSBA.Spectral.InvSpectrum
+
+@[expose] public section
 
 /-!
 # Dependent Gaussian projections

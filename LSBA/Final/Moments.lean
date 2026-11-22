@@ -1,5 +1,9 @@
-import LSBA.Volume.LowerVolume
-import LSBA.Spectral.ResolventBounds
+module
+
+public import LSBA.Volume.LowerVolume
+public import LSBA.Spectral.ResolventBounds
+
+@[expose] public section
 
 /-!
 # Moment tools for the completion of the resolvent moment bounds

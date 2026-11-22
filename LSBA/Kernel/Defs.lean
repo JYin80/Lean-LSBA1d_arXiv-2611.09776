@@ -1,6 +1,10 @@
-import LSBA.Dyson.FiniteCycle
-import LSBA.Dyson.FreeGreen
-import LSBA.Model.Cycle
+module
+
+public import LSBA.Dyson.FiniteCycle
+public import LSBA.Dyson.FreeGreen
+public import LSBA.Model.Cycle
+
+@[expose] public section
 
 /-!
 # Deterministic kernels: definitions

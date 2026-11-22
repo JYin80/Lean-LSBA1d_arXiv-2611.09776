@@ -1,5 +1,9 @@
-import LSBA.Upper.ConversionInterval
-import LSBA.Kernel.Defs
+module
+
+public import LSBA.Upper.ConversionInterval
+public import LSBA.Kernel.Defs
+
+@[expose] public section
 
 /-!
 # Decay on the cycle

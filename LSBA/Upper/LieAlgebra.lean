@@ -1,5 +1,9 @@
-import LSBA.Analysis.ComplexMatrix
-import LSBA.Transfer.IsoGroup
+module
+
+public import LSBA.Analysis.ComplexMatrix
+public import LSBA.Transfer.IsoGroup
+
+@[expose] public section
 
 /-!
 # The Lie algebra of 𝒢 in two coordinate systems

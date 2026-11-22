@@ -1,6 +1,10 @@
-import LSBA.Upper.GoodOperator
-import LSBA.Upper.BatchBadMass
-import LSBA.Upper.OperatorIteration
+module
+
+public import LSBA.Upper.GoodOperator
+public import LSBA.Upper.BatchBadMass
+public import LSBA.Upper.OperatorIteration
+
+@[expose] public section
 
 /-!
 # Lemma 8.9 [up:lem:good-bad]: the good and bad components

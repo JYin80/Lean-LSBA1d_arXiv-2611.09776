@@ -1,4 +1,8 @@
-import LSBA.Kernel.Algebra
+module
+
+public import LSBA.Kernel.Algebra
+
+@[expose] public section
 
 /-!
 # Projected tensors

@@ -1,6 +1,10 @@
-import LSBA.Upper.AngularPairing
-import LSBA.Upper.OperatorSemigroup
-import LSBA.Upper.OperatorIteration
+module
+
+public import LSBA.Upper.AngularPairing
+public import LSBA.Upper.OperatorSemigroup
+public import LSBA.Upper.OperatorIteration
+
+@[expose] public section
 
 /-!
 # Lemma 8.11 [up:lem:angular]: from Gaussian divergence to contraction

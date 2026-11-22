@@ -1,6 +1,10 @@
-import LSBA.Prop.Inputs
-import LSBA.Gauss.HaarMoment
-import LSBA.Main.HaarVector
+module
+
+public import LSBA.Prop.Inputs
+public import LSBA.Gauss.HaarMoment
+public import LSBA.Main.HaarVector
+
+@[expose] public section
 
 /-!
 # The Haar step of Lemma 5.9 [gc:lem:residual]

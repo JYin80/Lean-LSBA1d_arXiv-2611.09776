@@ -1,5 +1,9 @@
-import LSBA.Transfer.StepSeries
-import LSBA.Transfer.Transition
+module
+
+public import LSBA.Transfer.StepSeries
+public import LSBA.Transfer.Transition
+
+@[expose] public section
 
 /-!
 # Uniform polynomial expansions: the expansion

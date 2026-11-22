@@ -1,4 +1,8 @@
-import LSBA.Gauss.GUELaw
+module
+
+public import LSBA.Gauss.GUELaw
+
+@[expose] public section
 
 /-!
 # Norm moments of a GUE block

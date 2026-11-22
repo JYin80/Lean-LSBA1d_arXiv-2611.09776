@@ -1,4 +1,8 @@
-import LSBA.Prop.Step3Cone
+module
+
+public import LSBA.Prop.Step3Cone
+
+@[expose] public section
 
 /-!
 # Steps 4 and 5 of the one-step propagation

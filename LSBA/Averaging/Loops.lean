@@ -1,11 +1,15 @@
-import LSBA.Averaging.Branch
-import LSBA.Primitive.Large
-import LSBA.Loop.ErrorHierarchy
-import LSBA.Flow.Moment
-import LSBA.Prop.Domination
-import LSBA.Flow.Comparison
-import LSBA.Prop.Ward
-import LSBA.Averaging.LoopsStep
+module
+
+public import LSBA.Averaging.Branch
+public import LSBA.Primitive.Large
+public import LSBA.Loop.ErrorHierarchy
+public import LSBA.Flow.Moment
+public import LSBA.Prop.Domination
+public import LSBA.Flow.Comparison
+public import LSBA.Prop.Ward
+public import LSBA.Averaging.LoopsStep
+
+@[expose] public section
 
 /-!
 # Loops in Lemma 5.6 [fo:prop:inputs]

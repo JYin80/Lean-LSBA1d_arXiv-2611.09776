@@ -1,5 +1,9 @@
-import LSBA.Upper.CircleRotation
-import LSBA.Transfer.VolCocycle
+module
+
+public import LSBA.Upper.CircleRotation
+public import LSBA.Transfer.VolCocycle
+
+@[expose] public section
 
 /-!
 # The angular speed of the transfer action

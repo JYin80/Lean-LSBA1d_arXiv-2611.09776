@@ -1,4 +1,8 @@
-import LSBA.Gauss.PairingMoment
+module
+
+public import LSBA.Gauss.PairingMoment
+
+@[expose] public section
 
 /-!
 # Conditional trace moments of GUE tensor sums

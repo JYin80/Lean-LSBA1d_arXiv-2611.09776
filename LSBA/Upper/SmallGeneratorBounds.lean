@@ -1,4 +1,8 @@
-import LSBA.Upper.SmallGenerator
+module
+
+public import LSBA.Upper.SmallGenerator
+
+@[expose] public section
 
 /-!
 # Elementary bounds for the construction of `K`

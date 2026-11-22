@@ -1,5 +1,9 @@
-import LSBA.Gauss.StdGauss
-import LSBA.Model.Basic
+module
+
+public import LSBA.Gauss.StdGauss
+public import LSBA.Model.Basic
+
+@[expose] public section
 
 /-!
 # Decomposition of a Gaussian sample along a line

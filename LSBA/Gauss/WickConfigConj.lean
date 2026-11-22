@@ -1,4 +1,8 @@
-import LSBA.Gauss.WickConfigAlg
+module
+
+public import LSBA.Gauss.WickConfigAlg
+
+@[expose] public section
 
 /-!
 # The Wick contraction commutes with conjugation

@@ -1,5 +1,9 @@
-import LSBA.Upper.Interface
-import LSBA.Upper.AssemblyBounds
+module
+
+public import LSBA.Upper.Interface
+public import LSBA.Upper.AssemblyBounds
+
+@[expose] public section
 
 /-!
 # The upper count (3.11) [uv:eq:upper-count]

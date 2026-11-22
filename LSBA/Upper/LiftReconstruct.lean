@@ -1,5 +1,9 @@
-import LSBA.Upper.LiftPairs
-import LSBA.Analysis.LeastSquares
+module
+
+public import LSBA.Upper.LiftPairs
+public import LSBA.Analysis.LeastSquares
+
+@[expose] public section
 
 /-!
 # The reconstruction `𝒦₀` and the left inverse of `g 𝒜*`

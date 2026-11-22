@@ -1,9 +1,13 @@
-import LSBA.Upper.ActiveChain
-import LSBA.Upper.CutLevels
-import LSBA.Upper.RegularState
-import LSBA.Analysis.StepCutoff
-import LSBA.Spectral.RankTrace
-import LSBA.Spectral.SpecProjSmooth
+module
+
+public import LSBA.Upper.ActiveChain
+public import LSBA.Upper.CutLevels
+public import LSBA.Upper.RegularState
+public import LSBA.Analysis.StepCutoff
+public import LSBA.Spectral.RankTrace
+public import LSBA.Spectral.SpecProjSmooth
+
+@[expose] public section
 
 /-!
 # The cutoff of Section 9.4.4 [su:sec:cutoff-estimates]

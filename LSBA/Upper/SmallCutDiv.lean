@@ -1,7 +1,11 @@
-import LSBA.Upper.SmallScorePrefix
-import LSBA.Upper.SmallCutLocal
-import LSBA.Upper.SmallContractionRates
-import LSBA.Gauss.PrefixProduct
+module
+
+public import LSBA.Upper.SmallScorePrefix
+public import LSBA.Upper.SmallCutLocal
+public import LSBA.Upper.SmallContractionRates
+public import LSBA.Gauss.PrefixProduct
+
+@[expose] public section
 
 /-!
 # The Gaussian divergence bound of Lemma 8.12 [up:lem:small-contraction]

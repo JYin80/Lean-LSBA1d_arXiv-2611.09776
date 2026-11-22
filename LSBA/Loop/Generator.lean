@@ -1,6 +1,10 @@
-import LSBA.Gauss.HeatBlock
-import LSBA.Flow.Realization
-import LSBA.Loop.Cuts
+module
+
+public import LSBA.Gauss.HeatBlock
+public import LSBA.Flow.Realization
+public import LSBA.Loop.Cuts
+
+@[expose] public section
 
 /-!
 # The loop hierarchy in generator form

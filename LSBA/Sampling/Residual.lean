@@ -1,4 +1,8 @@
-import LSBA.Sampling.Lemma48
+module
+
+public import LSBA.Sampling.Lemma48
+
+@[expose] public section
 
 /-!
 # Centered traces, entries and residuals

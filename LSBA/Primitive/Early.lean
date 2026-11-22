@@ -1,5 +1,9 @@
-import LSBA.Primitive.Solve
-import LSBA.Kernel.Bounded
+module
+
+public import LSBA.Primitive.Solve
+public import LSBA.Kernel.Bounded
+
+@[expose] public section
 
 /-!
 # Primitive loops: early-time, coarse and tail bounds

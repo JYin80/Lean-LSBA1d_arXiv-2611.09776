@@ -1,6 +1,10 @@
-import LSBA.Primitive.Molecule
-import LSBA.Primitive.Early
-import LSBA.Kernel.Scales
+module
+
+public import LSBA.Primitive.Molecule
+public import LSBA.Primitive.Early
+public import LSBA.Kernel.Scales
+
+@[expose] public section
 
 /-!
 # Primitive loops at bounded coupling

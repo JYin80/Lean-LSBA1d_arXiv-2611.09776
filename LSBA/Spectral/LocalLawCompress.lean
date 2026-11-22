@@ -1,5 +1,9 @@
-import LSBA.Spectral.DeformedLocalLaw
-import LSBA.Gauss.Compress
+module
+
+public import LSBA.Spectral.DeformedLocalLaw
+public import LSBA.Gauss.Compress
+
+@[expose] public section
 
 /-!
 # The averaged local law for compressions

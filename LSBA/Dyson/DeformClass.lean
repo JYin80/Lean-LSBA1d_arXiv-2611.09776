@@ -1,4 +1,8 @@
-import LSBA.Spectral.Counts
+module
+
+public import LSBA.Spectral.Counts
+
+@[expose] public section
 
 /-!
 # The deformation class

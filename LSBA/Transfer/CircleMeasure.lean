@@ -1,4 +1,8 @@
-import LSBA.Transfer.Circle
+module
+
+public import LSBA.Transfer.Circle
+
+@[expose] public section
 
 /-!
 # The angular measure on the circle

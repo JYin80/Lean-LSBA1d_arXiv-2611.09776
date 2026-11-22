@@ -1,5 +1,9 @@
-import LSBA.Upper.LargeCells
-import LSBA.Transfer.Path
+module
+
+public import LSBA.Upper.LargeCells
+public import LSBA.Transfer.Path
+
+@[expose] public section
 
 /-!
 # Mass ratios of two cells

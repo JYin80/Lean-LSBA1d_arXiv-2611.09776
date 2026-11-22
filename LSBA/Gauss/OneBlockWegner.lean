@@ -1,5 +1,9 @@
-import LSBA.Gauss.InverseNorm
-import LSBA.Spectral.Measurability
+module
+
+public import LSBA.Gauss.InverseNorm
+public import LSBA.Spectral.Measurability
+
+@[expose] public section
 
 /-!
 # Wegner bound for a deformed GUE matrix

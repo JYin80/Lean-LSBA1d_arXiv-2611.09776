@@ -1,8 +1,12 @@
-import LSBA.Analysis.Boole
-import LSBA.Upper.LargeTransfer
-import LSBA.Upper.ConversionBoundary
-import LSBA.Transfer.PathCut
-import LSBA.Gauss.BlockWindow
+module
+
+public import LSBA.Analysis.Boole
+public import LSBA.Upper.LargeTransfer
+public import LSBA.Upper.ConversionBoundary
+public import LSBA.Transfer.PathCut
+public import LSBA.Gauss.BlockWindow
+
+@[expose] public section
 
 /-!
 # Energy-integrated fractional resolvents on a path

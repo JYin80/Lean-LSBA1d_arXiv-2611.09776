@@ -1,5 +1,9 @@
-import LSBA.Upper.SmallGenerator
-import LSBA.Upper.ChosenGenerator
+module
+
+public import LSBA.Upper.SmallGenerator
+public import LSBA.Upper.ChosenGenerator
+
+@[expose] public section
 
 /-!
 # Symmetry, smoothness and measurability of the construction of `K`

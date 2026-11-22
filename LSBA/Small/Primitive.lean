@@ -1,5 +1,9 @@
-import LSBA.Small.Molecule
-import LSBA.Primitive.Bounded
+module
+
+public import LSBA.Small.Molecule
+public import LSBA.Primitive.Bounded
+
+@[expose] public section
 
 /-!
 # Sharp primitive loop bounds

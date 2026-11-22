@@ -1,4 +1,8 @@
-import LSBA.Transfer.PathCut
+module
+
+public import LSBA.Transfer.PathCut
+
+@[expose] public section
 
 /-!
 # Interval splitting and the cycle Schur identity

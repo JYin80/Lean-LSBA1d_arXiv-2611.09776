@@ -1,7 +1,11 @@
-import LSBA.Upper.Operator
-import LSBA.Transfer.GraphChart
-import LSBA.Analysis.RotCorrection
-import LSBA.Gauss.HermCoord
+module
+
+public import LSBA.Upper.Operator
+public import LSBA.Transfer.GraphChart
+public import LSBA.Analysis.RotCorrection
+public import LSBA.Gauss.HermCoord
+
+@[expose] public section
 
 /-!
 # The data of the small-coupling field

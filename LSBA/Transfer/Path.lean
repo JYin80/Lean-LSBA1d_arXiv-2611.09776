@@ -1,4 +1,8 @@
-import LSBA.Transfer.Recurrence
+module
+
+public import LSBA.Transfer.Recurrence
+
+@[expose] public section
 
 /-!
 # Block path operators and the transfer recurrence

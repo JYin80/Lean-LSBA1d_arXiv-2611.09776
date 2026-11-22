@@ -1,4 +1,8 @@
-import LSBA.Primitive.Defs
+module
+
+public import LSBA.Primitive.Defs
+
+@[expose] public section
 
 /-!
 # Primitive loops: symmetries

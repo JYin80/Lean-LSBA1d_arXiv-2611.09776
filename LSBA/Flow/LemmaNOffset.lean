@@ -1,7 +1,11 @@
-import LSBA.Flow.SurrField
-import LSBA.Prop.Inputs
-import LSBA.Prop.Domination
-import LSBA.Flow.Comparison
+module
+
+public import LSBA.Flow.SurrField
+public import LSBA.Prop.Inputs
+public import LSBA.Prop.Domination
+public import LSBA.Flow.Comparison
+
+@[expose] public section
 
 /-!
 # The off-set bound for the mixed-pair bound

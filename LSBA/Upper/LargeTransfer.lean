@@ -1,7 +1,11 @@
-import LSBA.Upper.LargeMGF
-import LSBA.Transfer.NormalComparison
-import LSBA.Transfer.Transition
-import LSBA.Upper.ConversionEndpoint
+module
+
+public import LSBA.Upper.LargeMGF
+public import LSBA.Transfer.NormalComparison
+public import LSBA.Transfer.Transition
+public import LSBA.Upper.ConversionEndpoint
+
+@[expose] public section
 
 /-!
 # Negative transfer moments at large coupling

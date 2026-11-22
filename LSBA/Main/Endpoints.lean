@@ -1,9 +1,13 @@
-import LSBA.Main.AssemblyWindow
-import LSBA.Main.AssemblyScales
-import LSBA.Transfer.ShortSpreading
-import LSBA.Small.Lower
-import LSBA.Final.Large
-import LSBA.Main.RoughDensity
+module
+
+public import LSBA.Main.AssemblyWindow
+public import LSBA.Main.AssemblyScales
+public import LSBA.Transfer.ShortSpreading
+public import LSBA.Small.Lower
+public import LSBA.Final.Large
+public import LSBA.Main.RoughDensity
+
+@[expose] public section
 
 /-!
 # The endpoints of the lower bound

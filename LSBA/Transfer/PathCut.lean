@@ -1,4 +1,8 @@
-import LSBA.Transfer.Path
+module
+
+public import LSBA.Transfer.Path
+
+@[expose] public section
 
 /-!
 # Cutting a block path

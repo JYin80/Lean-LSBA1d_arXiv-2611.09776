@@ -1,4 +1,9 @@
-import LSBA.Spectral.ProfileCount
+module
+
+public import LSBA.Spectral.ProfileCount
+public import LSBA.MainDefs
+
+@[expose] public section
 
 /-!
 # Two-sided counts
@@ -17,28 +22,6 @@ noncomputable section
 open scoped Classical
 
 namespace LSBA
-
-/-- `B₊` of the proof of the upper bound in Theorem 1.4 [thm:main], before (3.11)
-[uv:eq:upper-count]: eigenvalues in `J` that are multiple, or simple with `r < ℓ`. -/
-def badCountUp (W L : ℕ) (A : Matrix (Fin L × Fin W) (Fin L × Fin W) ℂ) (J : Set ℝ) (r : ℝ) :
-    ℕ :=
-  if hA : A.IsHermitian then
-    #(univ.filter fun k => hA.eigenvalues k ∈ J ∧
-      (2 ≤ mult hA.eigenvalues k ∨
-        r < ((ellProf W L (projDiag hA.eigenvalues (fun j => ⇑(hA.eigenvectorBasis j)) k) : ℕ)
-          : ℝ)))
-  else 0
-
-/-- Two-sided good count: simple eigenvalues in `J` with `r ≤ ℓ ≤ R`. -/
-def goodCountTwoSided (W L : ℕ) (A : Matrix (Fin L × Fin W) (Fin L × Fin W) ℂ) (J : Set ℝ)
-    (r R : ℝ) : ℕ :=
-  if hA : A.IsHermitian then
-    #(univ.filter fun k => hA.eigenvalues k ∈ J ∧ mult hA.eigenvalues k = 1 ∧
-      r ≤ ((ellProf W L (projDiag hA.eigenvalues (fun j => ⇑(hA.eigenvectorBasis j)) k) : ℕ)
-        : ℝ) ∧
-      ((ellProf W L (projDiag hA.eigenvalues (fun j => ⇑(hA.eigenvectorBasis j)) k) : ℕ) : ℝ)
-        ≤ R)
-  else 0
 
 /-- Every eigenvalue in `J` is two-sided good, or counted by `B₋` or by `B₊`. -/
 theorem countIn_le_goodTwoSided_add (W L : ℕ) (A : Matrix (Fin L × Fin W) (Fin L × Fin W) ℂ)

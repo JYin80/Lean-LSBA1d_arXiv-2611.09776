@@ -1,6 +1,10 @@
-import LSBA.Dyson.FiniteRegular
-import LSBA.Kernel.Large
-import LSBA.Main.EndpointAlgebra
+module
+
+public import LSBA.Dyson.FiniteRegular
+public import LSBA.Kernel.Large
+public import LSBA.Main.EndpointAlgebra
+
+@[expose] public section
 
 /-!
 # Deterministic bounds for the terminal comparison

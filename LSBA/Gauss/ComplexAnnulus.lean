@@ -1,4 +1,8 @@
-import LSBA.Gauss.CGauss
+module
+
+public import LSBA.Gauss.CGauss
+
+@[expose] public section
 
 /-!
 # Small-ball bounds for a shifted complex Gaussian

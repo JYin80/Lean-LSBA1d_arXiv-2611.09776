@@ -1,6 +1,10 @@
-import LSBA.Upper.FracMoment
-import LSBA.Upper.ConversionCycle
-import LSBA.Upper.NearZeroTransfer
+module
+
+public import LSBA.Upper.FracMoment
+public import LSBA.Upper.ConversionCycle
+public import LSBA.Upper.NearZeroTransfer
+
+@[expose] public section
 
 /-!
 # The finite-volume criterion

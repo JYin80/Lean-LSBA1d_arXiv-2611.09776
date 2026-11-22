@@ -1,4 +1,8 @@
-import LSBA.Upper.CorrectorLinear
+module
+
+public import LSBA.Upper.CorrectorLinear
+
+@[expose] public section
 
 /-!
 # Solving the coefficient equation

@@ -1,5 +1,9 @@
-import LSBA.Spectral.EigMass
-import LSBA.Spectral.Resolvent
+module
+
+public import LSBA.Spectral.EigMass
+public import LSBA.Spectral.Resolvent
+
+@[expose] public section
 
 /-!
 # Crossings of the rank-one family

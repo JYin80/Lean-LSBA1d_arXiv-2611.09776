@@ -1,6 +1,10 @@
-import LSBA.Upper.ScoreFrame
-import LSBA.Gauss.DivergenceMoment
-import LSBA.Gauss.NormTail
+module
+
+public import LSBA.Upper.ScoreFrame
+public import LSBA.Gauss.DivergenceMoment
+public import LSBA.Gauss.NormTail
+
+@[expose] public section
 
 /-!
 # The active part of the Gaussian divergence

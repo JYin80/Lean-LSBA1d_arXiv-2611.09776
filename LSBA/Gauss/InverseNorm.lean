@@ -1,4 +1,8 @@
-import LSBA.Gauss.FixedVector
+module
+
+public import LSBA.Gauss.FixedVector
+
+@[expose] public section
 
 /-!
 # Inverse-norm tail for a deformed GUE matrix

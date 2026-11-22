@@ -1,4 +1,8 @@
-import LSBA.Gauss.Haar
+module
+
+public import LSBA.Gauss.Haar
+
+@[expose] public section
 
 /-!
 # Haar columns

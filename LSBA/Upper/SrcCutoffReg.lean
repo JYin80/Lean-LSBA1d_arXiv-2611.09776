@@ -1,6 +1,10 @@
-import LSBA.Upper.SrcCutoffPoint
-import LSBA.Upper.ChainBridge
-import LSBA.Upper.SmallGeneratorReg
+module
+
+public import LSBA.Upper.SrcCutoffPoint
+public import LSBA.Upper.ChainBridge
+public import LSBA.Upper.SmallGeneratorReg
+
+@[expose] public section
 
 /-!
 # The cutoff family of Lemma 9.3 [su:lem:chosen-generator]

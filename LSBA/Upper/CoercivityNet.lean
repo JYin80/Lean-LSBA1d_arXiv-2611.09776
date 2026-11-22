@@ -1,6 +1,10 @@
-import LSBA.Upper.CoercivityMap
-import LSBA.Gauss.SphereNet
-import LSBA.Gauss.GUEQuadSum
+module
+
+public import LSBA.Upper.CoercivityMap
+public import LSBA.Gauss.SphereNet
+public import LSBA.Gauss.GUEQuadSum
+
+@[expose] public section
 
 /-!
 # Spectral bounds for `Σ_j G_j²` at `m = 128`

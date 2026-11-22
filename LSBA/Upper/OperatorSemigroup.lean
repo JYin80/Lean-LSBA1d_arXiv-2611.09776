@@ -1,4 +1,8 @@
-import LSBA.Upper.Operator
+module
+
+public import LSBA.Upper.Operator
+
+@[expose] public section
 
 /-!
 # The semigroup property of the operator

@@ -1,4 +1,8 @@
-import LSBA.Transfer.Weight
+module
+
+public import LSBA.Transfer.Weight
+
+@[expose] public section
 
 /-!
 # Suprema of the transfer weight on an energy interval

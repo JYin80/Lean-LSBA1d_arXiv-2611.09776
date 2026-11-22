@@ -1,5 +1,9 @@
-import LSBA.Loop.Generator
-import LSBA.Primitive.Tree
+module
+
+public import LSBA.Loop.Generator
+public import LSBA.Primitive.Tree
+
+@[expose] public section
 
 /-!
 # The error hierarchy in generator form

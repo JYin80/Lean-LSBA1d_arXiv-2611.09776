@@ -1,8 +1,12 @@
-import LSBA.Upper.FlagApprox
-import LSBA.Upper.OperatorInvariance
-import LSBA.Gauss.Haar
-import LSBA.Transfer.CircleMeasure
-import LSBA.Upper.CircleRotation
+module
+
+public import LSBA.Upper.FlagApprox
+public import LSBA.Upper.OperatorInvariance
+public import LSBA.Gauss.Haar
+public import LSBA.Transfer.CircleMeasure
+public import LSBA.Upper.CircleRotation
+
+@[expose] public section
 
 /-!
 # Smooth invariant approximation of invariant functions of the flag

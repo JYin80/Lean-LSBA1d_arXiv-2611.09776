@@ -1,4 +1,8 @@
-import LSBA.Upper.CoercivityMap
+module
+
+public import LSBA.Upper.CoercivityMap
+
+@[expose] public section
 
 /-!
 # Smooth steps and inverse-norm cutoffs

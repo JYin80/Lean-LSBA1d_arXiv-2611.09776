@@ -1,5 +1,9 @@
-import LSBA.Model.Bulk
-import LSBA.Model.Scales
+module
+
+public import LSBA.Model.Bulk
+public import LSBA.Model.Scales
+
+@[expose] public section
 
 /-!
 # Deterministic steps of the proof of (3.11) [uv:eq:upper-count]

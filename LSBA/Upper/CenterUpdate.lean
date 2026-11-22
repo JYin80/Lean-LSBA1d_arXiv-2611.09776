@@ -1,6 +1,10 @@
-import LSBA.Upper.CenterParity
-import LSBA.Upper.CenterLeadTrace
-import LSBA.Upper.CenterLeadMarked
+module
+
+public import LSBA.Upper.CenterParity
+public import LSBA.Upper.CenterLeadTrace
+public import LSBA.Upper.CenterLeadMarked
+
+@[expose] public section
 
 /-!
 # The corrected transition: leading terms, remainders and bounds

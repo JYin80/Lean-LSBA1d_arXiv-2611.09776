@@ -1,4 +1,8 @@
-import LSBA.Gauss.Divergence
+module
+
+public import LSBA.Gauss.Divergence
+
+@[expose] public section
 
 /-!
 # Gaussian integration by parts with frozen coordinates

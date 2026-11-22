@@ -1,5 +1,9 @@
-import LSBA.Upper.FracMoment
-import LSBA.Upper.LargeGreenPath
+module
+
+public import LSBA.Upper.FracMoment
+public import LSBA.Upper.LargeGreenPath
+
+@[expose] public section
 
 /-!
 # From negative transfer moments to energy-averaged fractional moments

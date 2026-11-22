@@ -1,5 +1,9 @@
-import LSBA.Transfer.Coarse
-import LSBA.Flow.Realization
+module
+
+public import LSBA.Transfer.Coarse
+public import LSBA.Flow.Realization
+
+@[expose] public section
 
 /-!
 # Weighted Ward identity and seed tails

@@ -1,6 +1,10 @@
-import LSBA.Upper.CoercivityNet
-import LSBA.Gauss.TensorMoment
-import LSBA.Gauss.GUENormSharp
+module
+
+public import LSBA.Upper.CoercivityNet
+public import LSBA.Gauss.TensorMoment
+public import LSBA.Gauss.GUENormSharp
+
+@[expose] public section
 
 /-!
 # The tensor bound at `m = 128`

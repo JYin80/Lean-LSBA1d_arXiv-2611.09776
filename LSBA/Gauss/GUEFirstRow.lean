@@ -1,6 +1,10 @@
-import LSBA.Gauss.GUEMat
-import LSBA.Gauss.CGauss
-import LSBA.Spectral.PolyNull
+module
+
+public import LSBA.Gauss.GUEMat
+public import LSBA.Gauss.CGauss
+public import LSBA.Spectral.PolyNull
+
+@[expose] public section
 
 /-!
 # The first row of a GUE matrix

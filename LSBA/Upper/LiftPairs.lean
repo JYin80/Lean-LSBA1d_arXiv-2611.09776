@@ -1,5 +1,9 @@
-import LSBA.Upper.LiftObserve
-import LSBA.Gauss.GUELayout
+module
+
+public import LSBA.Upper.LiftObserve
+public import LSBA.Gauss.GUELayout
+
+@[expose] public section
 
 /-!
 # The pair equations

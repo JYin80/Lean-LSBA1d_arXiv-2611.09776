@@ -1,7 +1,11 @@
-import LSBA.Gauss.GUE
-import LSBA.Spectral.ResolventBounds
-import LSBA.Kernel.Root
-import LSBA.Loop.Basic
+module
+
+public import LSBA.Gauss.GUE
+public import LSBA.Spectral.ResolventBounds
+public import LSBA.Kernel.Root
+public import LSBA.Loop.Basic
+
+@[expose] public section
 
 /-!
 # The single-time realization of the flow

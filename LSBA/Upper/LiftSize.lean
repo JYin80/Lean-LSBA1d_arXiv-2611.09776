@@ -1,4 +1,8 @@
-import LSBA.Upper.LiftReconstruct
+module
+
+public import LSBA.Upper.LiftReconstruct
+
+@[expose] public section
 
 /-!
 # The general lift and its size

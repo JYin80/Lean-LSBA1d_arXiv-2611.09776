@@ -1,5 +1,9 @@
-import LSBA.Transfer.StateChain
-import LSBA.Gauss.BlockSnoc
+module
+
+public import LSBA.Transfer.StateChain
+public import LSBA.Gauss.BlockSnoc
+
+@[expose] public section
 
 /-!
 # The transition operator

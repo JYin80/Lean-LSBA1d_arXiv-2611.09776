@@ -1,10 +1,14 @@
-import LSBA.Upper.RetainedProb
-import LSBA.Upper.AllowBound
-import LSBA.Upper.PrepGood
-import LSBA.Upper.CutLevels
-import LSBA.Spectral.InvImageRange
-import LSBA.Spectral.InvImageCompressSub
-import LSBA.Spectral.InvImageMeas
+module
+
+public import LSBA.Upper.RetainedProb
+public import LSBA.Upper.AllowBound
+public import LSBA.Upper.PrepGood
+public import LSBA.Upper.CutLevels
+public import LSBA.Spectral.InvImageRange
+public import LSBA.Spectral.InvImageCompressSub
+public import LSBA.Spectral.InvImageMeas
+
+@[expose] public section
 
 /-!
 # The small overlap in regime (i)

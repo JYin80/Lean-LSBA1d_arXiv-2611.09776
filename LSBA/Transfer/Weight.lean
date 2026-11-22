@@ -1,4 +1,8 @@
-import LSBA.Transfer.Moments
+module
+
+public import LSBA.Transfer.Moments
+
+@[expose] public section
 
 /-!
 # The transfer weight of a block sequence

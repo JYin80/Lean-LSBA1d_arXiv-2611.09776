@@ -1,5 +1,9 @@
-import LSBA.Upper.CirclePrimitive
-import LSBA.Upper.FlagApprox
+module
+
+public import LSBA.Upper.CirclePrimitive
+public import LSBA.Upper.FlagApprox
+
+@[expose] public section
 
 /-!
 # Measures on the flags with a vertical bound

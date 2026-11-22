@@ -1,7 +1,11 @@
-import LSBA.Gauss.Haar
-import LSBA.Gauss.Sphere
-import LSBA.Gauss.SphereNet
-import LSBA.Gauss.StdGauss
+module
+
+public import LSBA.Gauss.Haar
+public import LSBA.Gauss.Sphere
+public import LSBA.Gauss.SphereNet
+public import LSBA.Gauss.StdGauss
+
+@[expose] public section
 
 /-!
 # Overlap of a Haar-rotated subspace with a fixed projection

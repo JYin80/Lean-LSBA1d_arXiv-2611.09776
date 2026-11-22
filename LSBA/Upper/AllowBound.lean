@@ -1,5 +1,9 @@
-import LSBA.Upper.SmallGenerator
-import LSBA.Spectral.RankTrace
+module
+
+public import LSBA.Upper.SmallGenerator
+public import LSBA.Spectral.RankTrace
+
+@[expose] public section
 
 /-!
 # The allowed compression and the size of the source vector

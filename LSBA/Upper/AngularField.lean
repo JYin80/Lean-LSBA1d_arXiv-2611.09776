@@ -1,5 +1,9 @@
-import LSBA.Upper.Operator
-import LSBA.Gauss.Divergence
+module
+
+public import LSBA.Upper.Operator
+public import LSBA.Gauss.Divergence
+
+@[expose] public section
 
 /-!
 # The hypotheses of Lemma 8.11 [up:lem:angular]

@@ -1,6 +1,10 @@
-import LSBA.Upper.Score
-import LSBA.Upper.SmallPrefix
-import LSBA.Upper.SmallScoreSmooth
+module
+
+public import LSBA.Upper.Score
+public import LSBA.Upper.SmallPrefix
+public import LSBA.Upper.SmallScoreSmooth
+
+@[expose] public section
 
 /-!
 # Lemma 9.4 [us:lem:score] at the preparation of a sample

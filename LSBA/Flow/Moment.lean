@@ -1,5 +1,9 @@
-import LSBA.Gauss.HeatGenerator
-import LSBA.Flow.Comparison
+module
+
+public import LSBA.Gauss.HeatGenerator
+public import LSBA.Flow.Comparison
+
+@[expose] public section
 
 /-!
 # The moment comparison

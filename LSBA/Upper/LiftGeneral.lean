@@ -1,7 +1,11 @@
-import LSBA.Upper.LiftDeriv
-import LSBA.Gauss.DivergenceCutoff
-import LSBA.Upper.CoercivityCutoff
-import LSBA.Gauss.GUELaw
+module
+
+public import LSBA.Upper.LiftDeriv
+public import LSBA.Gauss.DivergenceCutoff
+public import LSBA.Upper.CoercivityCutoff
+public import LSBA.Gauss.GUELaw
+
+@[expose] public section
 
 /-!
 # Lemma 10.1 [lem:c-gaussian-lift]: the general lift

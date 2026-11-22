@@ -1,4 +1,8 @@
-import LSBA.Kernel.Large
+module
+
+public import LSBA.Kernel.Large
+
+@[expose] public section
 
 /-!
 # The increment bound of the mixed kernel at large coupling

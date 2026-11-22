@@ -1,6 +1,10 @@
-import LSBA.Loop.ErrorHierarchy
-import LSBA.Loop.Projection
-import LSBA.Averaging.LoopField
+module
+
+public import LSBA.Loop.ErrorHierarchy
+public import LSBA.Loop.Projection
+public import LSBA.Averaging.LoopField
+
+@[expose] public section
 
 /-!
 # The propagated projected loop error

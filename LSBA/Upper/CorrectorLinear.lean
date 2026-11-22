@@ -1,7 +1,11 @@
-import LSBA.Upper.CorrectorCoeff
-import LSBA.Upper.CorrectorAlg
-import LSBA.Upper.CenterIncOne
-import LSBA.Upper.CenterNewton
+module
+
+public import LSBA.Upper.CorrectorCoeff
+public import LSBA.Upper.CorrectorAlg
+public import LSBA.Upper.CenterIncOne
+public import LSBA.Upper.CenterNewton
+
+@[expose] public section
 
 /-!
 # The linear coefficients of the corrector equation

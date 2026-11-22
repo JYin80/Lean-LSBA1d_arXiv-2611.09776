@@ -1,5 +1,9 @@
-import LSBA.Upper.CoercivityQuadratic
-import LSBA.Gauss.GUEContract
+module
+
+public import LSBA.Upper.CoercivityQuadratic
+public import LSBA.Gauss.GUEContract
+
+@[expose] public section
 
 /-!
 # Decoupling (G.14) [cg:eq:decouple]

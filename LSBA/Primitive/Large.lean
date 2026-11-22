@@ -1,5 +1,9 @@
-import LSBA.Primitive.Molecule
-import LSBA.Primitive.Uniform
+module
+
+public import LSBA.Primitive.Molecule
+public import LSBA.Primitive.Uniform
+
+@[expose] public section
 
 /-!
 # Primitive loops at large coupling

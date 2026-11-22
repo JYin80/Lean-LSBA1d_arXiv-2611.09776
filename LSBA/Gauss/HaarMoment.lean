@@ -1,5 +1,9 @@
-import LSBA.Gauss.Concentration
-import LSBA.Gauss.Sphere
+module
+
+public import LSBA.Gauss.Concentration
+public import LSBA.Gauss.Sphere
+
+@[expose] public section
 
 /-!
 # Moments of the entries of a Haar conjugate

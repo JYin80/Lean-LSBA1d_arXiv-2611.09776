@@ -1,5 +1,9 @@
-import LSBA.Gauss.GUEMat
-import LSBA.Gauss.RectGauss
+module
+
+public import LSBA.Gauss.GUEMat
+public import LSBA.Gauss.RectGauss
+
+@[expose] public section
 
 /-!
 # The GUE in an adapted orthonormal basis

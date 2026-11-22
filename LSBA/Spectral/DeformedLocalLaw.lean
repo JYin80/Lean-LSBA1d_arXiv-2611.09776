@@ -1,6 +1,10 @@
-import LSBA.Spectral.DeformedGridChain
-import LSBA.Gauss.QuadLDE
-import LSBA.Dyson.DeformedRootCont
+module
+
+public import LSBA.Spectral.DeformedGridChain
+public import LSBA.Gauss.QuadLDE
+public import LSBA.Dyson.DeformedRootCont
+
+@[expose] public section
 
 /-!
 # The averaged and entrywise local law

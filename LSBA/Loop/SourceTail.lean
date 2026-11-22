@@ -1,9 +1,13 @@
-import LSBA.Loop.Cuts
-import LSBA.Loop.Generator
-import LSBA.Primitive.Defs
-import LSBA.Loop.ErrorHierarchy
-import LSBA.Loop.Projection
-import LSBA.Kernel.Tensor
+module
+
+public import LSBA.Loop.Cuts
+public import LSBA.Loop.Generator
+public import LSBA.Primitive.Defs
+public import LSBA.Loop.ErrorHierarchy
+public import LSBA.Loop.Projection
+public import LSBA.Kernel.Tensor
+
+@[expose] public section
 
 /-!
 # Tail bounds of the sources of the projected loop-error equation

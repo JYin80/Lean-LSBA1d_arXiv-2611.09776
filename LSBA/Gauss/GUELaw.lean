@@ -1,5 +1,9 @@
-import LSBA.Gauss.StdGauss
-import LSBA.Gauss.GUE
+module
+
+public import LSBA.Gauss.StdGauss
+public import LSBA.Gauss.GUE
+
+@[expose] public section
 
 /-!
 # The law of the GUE blocks

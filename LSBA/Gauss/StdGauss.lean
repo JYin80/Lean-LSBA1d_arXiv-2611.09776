@@ -1,5 +1,9 @@
-import LSBA.Gauss.Stein
-import Mathlib
+module
+
+public import LSBA.Gauss.Stein
+public import Mathlib
+
+@[expose] public section
 
 /-!
 # The standard Gaussian measure on `ℝ^ι`

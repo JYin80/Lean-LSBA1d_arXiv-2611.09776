@@ -1,6 +1,10 @@
-import LSBA.Gauss.SudakovFernique
-import LSBA.Gauss.SphereNet
-import LSBA.Gauss.GUELaw
+module
+
+public import LSBA.Gauss.SudakovFernique
+public import LSBA.Gauss.SphereNet
+public import LSBA.Gauss.GUELaw
+
+@[expose] public section
 
 /-!
 # The top of the spectrum of a GUE block

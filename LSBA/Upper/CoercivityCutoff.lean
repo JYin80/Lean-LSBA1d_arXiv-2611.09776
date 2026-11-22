@@ -1,7 +1,11 @@
-import LSBA.Upper.CoercivityTail
-import LSBA.Analysis.Mollify
-import LSBA.Gauss.NormTail
-import LSBA.Gauss.GUELayout
+module
+
+public import LSBA.Upper.CoercivityTail
+public import LSBA.Analysis.Mollify
+public import LSBA.Gauss.NormTail
+public import LSBA.Gauss.GUELayout
+
+@[expose] public section
 
 /-!
 # Coercivity cutoff (G.12) [cg:eq:cutoff], (10.5) [eq:c-main-cutoff], (10.14) [eq:c-main-coercivity]

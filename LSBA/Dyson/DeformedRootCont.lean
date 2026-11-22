@@ -1,4 +1,8 @@
-import LSBA.Dyson.DeformedRoot
+module
+
+public import LSBA.Dyson.DeformedRoot
+
+@[expose] public section
 
 /-!
 # Unitary covariance of `M_B`

@@ -1,6 +1,10 @@
-import LSBA.Upper.CenterNewton
-import LSBA.Upper.CenterInnovation
-import LSBA.Analysis.MomentTools
+module
+
+public import LSBA.Upper.CenterNewton
+public import LSBA.Upper.CenterInnovation
+public import LSBA.Analysis.MomentTools
+
+@[expose] public section
 
 /-!
 # The one-step moment recursion

@@ -1,7 +1,11 @@
-import LSBA.Spectral.EigMass
-import LSBA.Transfer.Weight
-import LSBA.Gauss.BlockWindow
-import LSBA.Gauss.LineDecomp
+module
+
+public import LSBA.Spectral.EigMass
+public import LSBA.Transfer.Weight
+public import LSBA.Gauss.BlockWindow
+public import LSBA.Gauss.LineDecomp
+
+@[expose] public section
 
 /-!
 # Cells of consecutive blocks

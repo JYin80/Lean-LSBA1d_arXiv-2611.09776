@@ -1,4 +1,9 @@
-import LSBA.Dyson.Scalar
+module
+
+public import LSBA.Dyson.Scalar
+public import LSBA.MainDefs
+
+@[expose] public section
 
 /-!
 # Stieltjes transforms and the measure ν_g
@@ -16,17 +21,6 @@ noncomputable section
 open scoped Classical
 
 namespace LSBA
-
-/-- Stieltjes transform `∫ (t - z)⁻¹ dν(t)`. -/
-def stieltjes (ν : Measure ℝ) (z : ℂ) : ℂ := ∫ t, ((t : ℂ) - z)⁻¹ ∂ν
-
-/-- `ν_g`: a probability measure with Stieltjes transform `m_g` on `ℂ_+` (junk `dirac 0`). -/
-def nuDyson (g : ℝ) : Measure ℝ :=
-  if h : ∃ ν : Measure ℝ, IsProbabilityMeasure ν ∧ ∀ z : ℂ, 0 < z.im → stieltjes ν z = mDyson g z
-  then h.choose else Measure.dirac 0
-
-/-- `F_g(x) = ν_g((-∞, x])`, (1.10) [eq:distribution]. -/
-def Fdist (g x : ℝ) : ℝ := (nuDyson g (Set.Iic x)).toReal
 
 /-! ### The kernel `(t - z)⁻¹` and the Poisson kernel -/
 

@@ -1,5 +1,9 @@
-import LSBA.Upper.CircleRotation
-import LSBA.Analysis.Sawtooth
+module
+
+public import LSBA.Upper.CircleRotation
+public import LSBA.Analysis.Sawtooth
+
+@[expose] public section
 
 /-!
 # The canonical primitive along the circles

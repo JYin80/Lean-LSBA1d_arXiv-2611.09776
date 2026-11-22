@@ -1,4 +1,8 @@
-import LSBA.Gauss.GUEMat
+module
+
+public import LSBA.Gauss.GUEMat
+
+@[expose] public section
 
 /-!
 # Compressions of a GUE matrix

@@ -1,5 +1,9 @@
-import LSBA.Upper.FracChain
-import LSBA.Upper.SmallContraction
+module
+
+public import LSBA.Upper.FracChain
+public import LSBA.Upper.SmallContraction
+
+@[expose] public section
 
 /-!
 # The transfer input in the two regimes of Theorem 3.2 [thm:sharp-small-upper]

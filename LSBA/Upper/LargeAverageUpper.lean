@@ -1,6 +1,10 @@
-import LSBA.Upper.LargeCorrelator
-import LSBA.Upper.Interface
-import LSBA.Spectral.SimpleSpectrum
+module
+
+public import LSBA.Upper.LargeCorrelator
+public import LSBA.Upper.Interface
+public import LSBA.Spectral.SimpleSpectrum
+
+@[expose] public section
 
 /-!
 # Concentration from interval averaging

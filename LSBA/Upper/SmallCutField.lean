@@ -1,7 +1,11 @@
-import LSBA.Upper.SmallCutDiv
-import LSBA.Upper.SmallScoreGrowth
-import LSBA.Upper.AngularField
-import LSBA.Gauss.DivergenceFrozen
+module
+
+public import LSBA.Upper.SmallCutDiv
+public import LSBA.Upper.SmallScoreGrowth
+public import LSBA.Upper.AngularField
+public import LSBA.Gauss.DivergenceFrozen
+
+@[expose] public section
 
 /-!
 # The hypotheses of Lemma 8.11 [up:lem:angular] for the small-coupling field

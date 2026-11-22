@@ -1,4 +1,8 @@
-import LSBA.Spectral.ResolventBounds
+module
+
+public import LSBA.Spectral.ResolventBounds
+
+@[expose] public section
 
 /-!
 # The deformed scalar Dyson map

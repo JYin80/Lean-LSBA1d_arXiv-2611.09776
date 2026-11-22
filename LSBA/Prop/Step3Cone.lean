@@ -1,10 +1,14 @@
-import LSBA.Prop.Step3Tail
-import LSBA.Prop.Step3Same
-import LSBA.Loop.Projection
-import LSBA.Kernel.Tensor
-import LSBA.Kernel.Scales
-import LSBA.Prop.Increment
-import LSBA.Prop.ConeNode
+module
+
+public import LSBA.Prop.Step3Tail
+public import LSBA.Prop.Step3Same
+public import LSBA.Loop.Projection
+public import LSBA.Kernel.Tensor
+public import LSBA.Kernel.Scales
+public import LSBA.Prop.Increment
+public import LSBA.Prop.ConeNode
+
+@[expose] public section
 
 /-!
 # Step 3 of the one-step propagation: the cone

@@ -1,7 +1,11 @@
-import LSBA.Spectral.SchattenBand
-import LSBA.Spectral.Counts
-import LSBA.Spectral.BorderInverse
-import LSBA.Transfer.FlagAction
+module
+
+public import LSBA.Spectral.SchattenBand
+public import LSBA.Spectral.Counts
+public import LSBA.Spectral.BorderInverse
+public import LSBA.Transfer.FlagAction
+
+@[expose] public section
 
 /-!
 # Rank surrogates and ranges of image projections

@@ -1,4 +1,8 @@
-import LSBA.Upper.Interface
+module
+
+public import LSBA.Upper.Interface
+
+@[expose] public section
 
 /-!
 # Unions of energy sets in the count of (3.6) [eq:averaged-tail]

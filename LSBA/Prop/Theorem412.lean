@@ -1,11 +1,15 @@
-import LSBA.Prop.Iteration
-import LSBA.Prop.RegimeBdd
-import LSBA.Prop.RegimeLarge
-import LSBA.Flow.BoundedInitialPacket
-import LSBA.Sampling.Inputs
-import LSBA.Averaging.Inputs
-import LSBA.Averaging.Lemma46
-import LSBA.Prop.IncrementInputs
+module
+
+public import LSBA.Prop.Iteration
+public import LSBA.Prop.RegimeBdd
+public import LSBA.Prop.RegimeLarge
+public import LSBA.Flow.BoundedInitialPacket
+public import LSBA.Sampling.Inputs
+public import LSBA.Averaging.Inputs
+public import LSBA.Averaging.Lemma46
+public import LSBA.Prop.IncrementInputs
+
+@[expose] public section
 
 /-!
 # Theorem 5.12(ii) [gc:thm:common] at large coupling

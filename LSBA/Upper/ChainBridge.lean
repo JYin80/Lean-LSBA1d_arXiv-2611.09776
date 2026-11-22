@@ -1,7 +1,11 @@
-import LSBA.Upper.SmallGenerator
-import LSBA.Upper.ChosenGenerator
-import LSBA.Upper.RicChain
-import LSBA.Gauss.BlockWindow
+module
+
+public import LSBA.Upper.SmallGenerator
+public import LSBA.Upper.ChosenGenerator
+public import LSBA.Upper.RicChain
+public import LSBA.Gauss.BlockWindow
+
+@[expose] public section
 
 /-!
 # The forward and right-cavity chains as Riccati chains

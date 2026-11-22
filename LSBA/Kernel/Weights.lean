@@ -1,5 +1,9 @@
-import LSBA.Kernel.Algebra
-import LSBA.Kernel.Scales
+module
+
+public import LSBA.Kernel.Algebra
+public import LSBA.Kernel.Scales
+
+@[expose] public section
 
 /-!
 # Weights

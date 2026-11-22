@@ -1,5 +1,9 @@
-import LSBA.Gauss.HermCoord
-import LSBA.Gauss.Divergence
+module
+
+public import LSBA.Gauss.HermCoord
+public import LSBA.Gauss.Divergence
+
+@[expose] public section
 
 /-!
 # Gaussian divergence of conjugation fields

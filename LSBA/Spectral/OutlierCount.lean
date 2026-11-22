@@ -1,5 +1,9 @@
-import LSBA.Spectral.Measurability
-import LSBA.Gauss.NormTail
+module
+
+public import LSBA.Spectral.Measurability
+public import LSBA.Gauss.NormTail
+
+@[expose] public section
 
 /-!
 # Outlier count by a dimension argument

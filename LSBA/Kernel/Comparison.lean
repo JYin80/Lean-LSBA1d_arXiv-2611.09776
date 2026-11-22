@@ -1,6 +1,10 @@
-import LSBA.Kernel.Bounded
-import LSBA.Kernel.Large
-import LSBA.Kernel.Scales
+module
+
+public import LSBA.Kernel.Bounded
+public import LSBA.Kernel.Large
+public import LSBA.Kernel.Scales
+
+@[expose] public section
 
 /-!
 # Comparison parameters and positive height

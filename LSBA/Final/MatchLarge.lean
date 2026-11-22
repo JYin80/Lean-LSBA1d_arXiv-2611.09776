@@ -1,6 +1,10 @@
-import LSBA.Final.Moments
-import LSBA.Final.Terminal
-import LSBA.Prop.Objects
+module
+
+public import LSBA.Final.Moments
+public import LSBA.Final.Terminal
+public import LSBA.Prop.Objects
+
+@[expose] public section
 
 /-!
 # Terminal matching at large coupling

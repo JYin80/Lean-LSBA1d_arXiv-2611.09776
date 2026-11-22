@@ -1,6 +1,10 @@
-import LSBA.Spectral.SchurBounds
-import LSBA.Dyson.DeformedStability
-import LSBA.Spectral.SchurEvents
+module
+
+public import LSBA.Spectral.SchurBounds
+public import LSBA.Dyson.DeformedStability
+public import LSBA.Spectral.SchurEvents
+
+@[expose] public section
 
 /-!
 # The single-height step

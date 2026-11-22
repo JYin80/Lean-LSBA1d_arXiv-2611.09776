@@ -1,5 +1,9 @@
-import LSBA.Gauss.GUEFirstRow
-import LSBA.Gauss.QuadRatio
+module
+
+public import LSBA.Gauss.GUEFirstRow
+public import LSBA.Gauss.QuadRatio
+
+@[expose] public section
 
 /-!
 # Fixed-vector bounds for a deformed GUE matrix

@@ -1,5 +1,9 @@
-import LSBA.Prop.OneStep
-import LSBA.Prop.Schedule
+module
+
+public import LSBA.Prop.OneStep
+public import LSBA.Prop.Schedule
+
+@[expose] public section
 
 /-!
 # Theorem 5.12 [gc:thm:common], iterated

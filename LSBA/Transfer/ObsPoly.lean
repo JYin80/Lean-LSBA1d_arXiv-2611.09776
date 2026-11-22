@@ -1,4 +1,8 @@
-import LSBA.Transfer.StateChain
+module
+
+public import LSBA.Transfer.StateChain
+
+@[expose] public section
 
 /-!
 # Polynomials in the observables

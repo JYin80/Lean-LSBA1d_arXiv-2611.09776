@@ -1,6 +1,10 @@
-import LSBA.Upper.VerticalBound
-import LSBA.Upper.CircleMeasureBound
-import LSBA.Analysis.LayerCakeL4
+module
+
+public import LSBA.Upper.VerticalBound
+public import LSBA.Upper.CircleMeasureBound
+public import LSBA.Analysis.LayerCakeL4
+
+@[expose] public section
 
 /-!
 # The good part of the transfer operator

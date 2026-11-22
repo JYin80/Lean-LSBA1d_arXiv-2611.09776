@@ -1,5 +1,9 @@
-import LSBA.Upper.StrongWalk
-import LSBA.Transfer.Path
+module
+
+public import LSBA.Upper.StrongWalk
+public import LSBA.Transfer.Path
+
+@[expose] public section
 
 /-!
 # The one-path expansion on a Dirichlet path

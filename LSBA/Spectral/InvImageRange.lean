@@ -1,5 +1,9 @@
-import LSBA.Spectral.InvImageCompress
-import LSBA.Gauss.NormTail
+module
+
+public import LSBA.Spectral.InvImageCompress
+public import LSBA.Gauss.NormTail
+
+@[expose] public section
 
 /-!
 # Relative overlap of inverse images

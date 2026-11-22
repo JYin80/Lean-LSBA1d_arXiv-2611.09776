@@ -1,4 +1,8 @@
-import LSBA.Spectral.InvImageCompress
+module
+
+public import LSBA.Spectral.InvImageCompress
+
+@[expose] public section
 
 /-!
 # Compression of inverse images into a subspace of dimension at most `d`

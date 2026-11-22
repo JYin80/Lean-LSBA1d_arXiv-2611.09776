@@ -1,5 +1,9 @@
-import LSBA.Upper.ConversionEndpoint
-import LSBA.Transfer.PathSchur
+module
+
+public import LSBA.Upper.ConversionEndpoint
+public import LSBA.Transfer.PathSchur
+
+@[expose] public section
 
 /-!
 # Decay on intervals

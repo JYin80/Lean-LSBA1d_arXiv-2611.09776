@@ -1,4 +1,8 @@
-import LSBA.Transfer.FlagAction
+module
+
+public import LSBA.Transfer.FlagAction
+
+@[expose] public section
 
 /-!
 # The circle of isotropic extensions

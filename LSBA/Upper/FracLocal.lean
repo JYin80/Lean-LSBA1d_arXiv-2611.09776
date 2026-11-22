@@ -1,5 +1,9 @@
-import LSBA.Upper.ConversionEndpoint
-import LSBA.Upper.NearZeroTransfer
+module
+
+public import LSBA.Upper.ConversionEndpoint
+public import LSBA.Upper.NearZeroTransfer
+
+@[expose] public section
 
 /-!
 # From high-probability transfer growth to the endpoint moment

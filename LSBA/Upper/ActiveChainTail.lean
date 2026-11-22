@@ -1,6 +1,10 @@
-import LSBA.Upper.ActiveChain
-import LSBA.Gauss.ScalarDensity
-import LSBA.Upper.CoercivityMap
+module
+
+public import LSBA.Upper.ActiveChain
+public import LSBA.Gauss.ScalarDensity
+public import LSBA.Upper.CoercivityMap
+
+@[expose] public section
 
 /-!
 # The inverse bound for the active-chain matrix

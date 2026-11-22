@@ -1,6 +1,10 @@
-import LSBA.Main.CountMono
-import LSBA.Model.Bulk
-import LSBA.Dyson.Distribution
+module
+
+public import LSBA.Main.CountMono
+public import LSBA.Model.Bulk
+public import LSBA.Dyson.Distribution
+
+@[expose] public section
 
 /-!
 # Endpoint algebra

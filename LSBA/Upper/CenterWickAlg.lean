@@ -1,6 +1,10 @@
-import LSBA.Upper.CenterExpansion
-import LSBA.Gauss.WickConfigAlg
-import LSBA.Gauss.WickConfigConj
+module
+
+public import LSBA.Upper.CenterExpansion
+public import LSBA.Gauss.WickConfigAlg
+public import LSBA.Gauss.WickConfigConj
+
+@[expose] public section
 
 /-!
 # Uniform polynomial expansions: algebraic properties

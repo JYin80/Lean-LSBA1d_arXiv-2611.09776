@@ -1,5 +1,9 @@
-import LSBA.Spectral.Mask
-import LSBA.Volume.LocalComparison
+module
+
+public import LSBA.Spectral.Mask
+public import LSBA.Volume.LocalComparison
+
+@[expose] public section
 
 /-!
 # Block-masked resolvents

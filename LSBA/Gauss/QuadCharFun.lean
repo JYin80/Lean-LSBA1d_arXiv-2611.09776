@@ -1,4 +1,8 @@
-import LSBA.Gauss.CGauss
+module
+
+public import LSBA.Gauss.CGauss
+
+@[expose] public section
 
 /-!
 # Characteristic function of `|γ + β|²` and the Fourier small-ball bound

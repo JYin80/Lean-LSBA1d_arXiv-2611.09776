@@ -1,7 +1,11 @@
-import LSBA.Sampling.Cells
-import LSBA.Flow.Realization
-import LSBA.Volume.LocalComparison
-import LSBA.Kernel.LineKernel
+module
+
+public import LSBA.Sampling.Cells
+public import LSBA.Flow.Realization
+public import LSBA.Volume.LocalComparison
+public import LSBA.Kernel.LineKernel
+
+@[expose] public section
 
 /-!
 # Transfer products and Green-block interpolation

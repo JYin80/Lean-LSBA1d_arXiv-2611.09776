@@ -1,4 +1,8 @@
-import LSBA.Kernel.Bounded
+module
+
+public import LSBA.Kernel.Bounded
+
+@[expose] public section
 
 /-!
 # Small-coupling rows of the bounded-coupling kernels

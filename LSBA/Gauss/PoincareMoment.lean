@@ -1,4 +1,8 @@
-import LSBA.Gauss.PoincarePoly
+module
+
+public import LSBA.Gauss.PoincarePoly
+
+@[expose] public section
 
 /-!
 # Moment Poincaré inequality with polynomial gradients

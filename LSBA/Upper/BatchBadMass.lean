@@ -1,5 +1,9 @@
-import LSBA.Upper.BatchCutoff
-import LSBA.Gauss.GUENormMoment
+module
+
+public import LSBA.Upper.BatchCutoff
+public import LSBA.Gauss.GUENormMoment
+
+@[expose] public section
 
 /-!
 # The bad mass of a transfer batch

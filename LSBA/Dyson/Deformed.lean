@@ -1,5 +1,9 @@
-import LSBA.Dyson.Semicircle
-import LSBA.Dyson.DeformClass
+module
+
+public import LSBA.Dyson.Semicircle
+public import LSBA.Dyson.DeformClass
+
+@[expose] public section
 
 /-!
 # Small-norm and small-rank deformations

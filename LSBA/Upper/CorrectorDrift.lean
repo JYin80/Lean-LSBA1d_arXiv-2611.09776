@@ -1,5 +1,9 @@
-import LSBA.Upper.CorrectorSolve
-import LSBA.Upper.CorrectorRemainder
+module
+
+public import LSBA.Upper.CorrectorSolve
+public import LSBA.Upper.CorrectorRemainder
+
+@[expose] public section
 
 /-!
 # The corrected drift on the good set

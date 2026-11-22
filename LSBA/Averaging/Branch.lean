@@ -1,4 +1,8 @@
-import LSBA.Averaging.Vertical
+module
+
+public import LSBA.Averaging.Vertical
+
+@[expose] public section
 
 /-!
 # Branch selection in Lemma 5.6 [fo:prop:inputs]

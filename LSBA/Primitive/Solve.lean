@@ -1,5 +1,9 @@
-import LSBA.Primitive.Tree
-import LSBA.Kernel.Algebra
+module
+
+public import LSBA.Primitive.Tree
+public import LSBA.Kernel.Algebra
+
+@[expose] public section
 
 /-!
 # Primitive loops: uniqueness and Duhamel

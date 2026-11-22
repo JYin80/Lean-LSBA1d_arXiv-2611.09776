@@ -1,4 +1,8 @@
-import LSBA.Dyson.DeformedMap
+module
+
+public import LSBA.Dyson.DeformedMap
+
+@[expose] public section
 
 /-!
 # The Herglotz solution `m_B`

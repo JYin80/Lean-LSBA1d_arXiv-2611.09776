@@ -1,7 +1,11 @@
-import LSBA.Upper.CorrelatorAverage
-import LSBA.Volume.LocalComparison
-import LSBA.Model.Cycle
-import LSBA.Upper.ConversionApriori
+module
+
+public import LSBA.Upper.CorrelatorAverage
+public import LSBA.Volume.LocalComparison
+public import LSBA.Model.Cycle
+public import LSBA.Upper.ConversionApriori
+
+@[expose] public section
 
 /-!
 # Decay of block correlators

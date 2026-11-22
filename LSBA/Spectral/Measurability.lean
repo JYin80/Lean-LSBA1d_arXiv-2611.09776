@@ -1,5 +1,9 @@
-import LSBA.Spectral.Counts
-import LSBA.Spectral.SimpleSpectrum
+module
+
+public import LSBA.Spectral.Counts
+public import LSBA.Spectral.SimpleSpectrum
+
+@[expose] public section
 
 /-!
 # Measurability of the spectral counts

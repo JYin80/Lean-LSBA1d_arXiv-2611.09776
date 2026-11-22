@@ -1,6 +1,10 @@
-import LSBA.Transfer.Norms
-import LSBA.Gauss.GUE
-import LSBA.Gauss.ExpQuadratic
+module
+
+public import LSBA.Transfer.Norms
+public import LSBA.Gauss.GUE
+public import LSBA.Gauss.ExpQuadratic
+
+@[expose] public section
 
 /-!
 # One-step moments

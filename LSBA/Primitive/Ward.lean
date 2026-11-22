@@ -1,4 +1,8 @@
-import LSBA.Primitive.Solve
+module
+
+public import LSBA.Primitive.Solve
+
+@[expose] public section
 
 /-!
 # Primitive loops: the Ward identity

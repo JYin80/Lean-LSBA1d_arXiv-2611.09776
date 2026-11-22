@@ -1,8 +1,12 @@
-import LSBA.Transfer.Seed
-import LSBA.Model.Bulk
-import LSBA.Main.SimpleRanges
-import LSBA.Spectral.Measurability
-import LSBA.Dyson.Distribution
+module
+
+public import LSBA.Transfer.Seed
+public import LSBA.Model.Bulk
+public import LSBA.Main.SimpleRanges
+public import LSBA.Spectral.Measurability
+public import LSBA.Dyson.Distribution
+
+@[expose] public section
 
 /-!
 # Spreading on the scale `g²`

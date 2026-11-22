@@ -1,4 +1,8 @@
-import LSBA.Gauss.StdGauss
+module
+
+public import LSBA.Gauss.StdGauss
+
+@[expose] public section
 
 /-!
 # A Gaussian exponential moment

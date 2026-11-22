@@ -1,4 +1,8 @@
-import LSBA.Sampling.Reach
+module
+
+public import LSBA.Sampling.Reach
+
+@[expose] public section
 
 /-!
 # Inputs at bounded coupling

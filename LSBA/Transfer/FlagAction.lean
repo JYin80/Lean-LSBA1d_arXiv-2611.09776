@@ -1,4 +1,8 @@
-import LSBA.Transfer.IsoGroup
+module
+
+public import LSBA.Transfer.IsoGroup
+
+@[expose] public section
 
 /-!
 # Isotropic flags and the action of 𝒢

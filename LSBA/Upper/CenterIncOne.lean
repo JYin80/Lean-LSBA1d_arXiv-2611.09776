@@ -1,4 +1,8 @@
-import LSBA.Upper.CenterExpansion
+module
+
+public import LSBA.Upper.CenterExpansion
+
+@[expose] public section
 
 /-!
 # The first coefficient of the mean increment

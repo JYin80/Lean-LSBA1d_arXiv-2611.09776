@@ -1,6 +1,10 @@
-import LSBA.Upper.ConversionApriori
-import LSBA.Upper.ConversionBoundary
-import LSBA.Gauss.BlockWindow
+module
+
+public import LSBA.Upper.ConversionApriori
+public import LSBA.Upper.ConversionBoundary
+public import LSBA.Gauss.BlockWindow
+
+@[expose] public section
 
 /-!
 # Small Green functions across one interval

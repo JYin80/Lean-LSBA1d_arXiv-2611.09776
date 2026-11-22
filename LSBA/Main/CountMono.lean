@@ -1,5 +1,9 @@
-import LSBA.Spectral.Measurability
-import LSBA.Model.Scales
+module
+
+public import LSBA.Spectral.Measurability
+public import LSBA.Model.Scales
+
+@[expose] public section
 
 /-!
 # Monotonicity of the counts

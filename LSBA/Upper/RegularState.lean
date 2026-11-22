@@ -1,6 +1,10 @@
-import LSBA.Gauss.FreshEvent
-import LSBA.Dyson.DeformClass
-import LSBA.Spectral.InvSpectrum
+module
+
+public import LSBA.Gauss.FreshEvent
+public import LSBA.Dyson.DeformClass
+public import LSBA.Spectral.InvSpectrum
+
+@[expose] public section
 
 /-!
 # Regular inverse Riccati states and the one-block bounds

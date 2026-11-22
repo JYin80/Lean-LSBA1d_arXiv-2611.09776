@@ -1,4 +1,8 @@
-import LSBA.Kernel.Defs
+module
+
+public import LSBA.Kernel.Defs
+
+@[expose] public section
 
 /-!
 # Finite-cycle roots

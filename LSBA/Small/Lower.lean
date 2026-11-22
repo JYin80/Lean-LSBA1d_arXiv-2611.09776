@@ -1,6 +1,10 @@
-import LSBA.Small.Propagation
-import LSBA.Dyson.Regular
-import LSBA.Final.MatchBdd
+module
+
+public import LSBA.Small.Propagation
+public import LSBA.Dyson.Regular
+public import LSBA.Final.MatchBdd
+
+@[expose] public section
 
 /-!
 # Resolvent moments at small coupling

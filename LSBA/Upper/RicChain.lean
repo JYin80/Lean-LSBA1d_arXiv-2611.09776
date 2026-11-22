@@ -1,4 +1,8 @@
-import LSBA.Gauss.GUELaw
+module
+
+public import LSBA.Gauss.GUELaw
+
+@[expose] public section
 
 /-!
 # Riccati chains on a batch of GUE blocks

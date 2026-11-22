@@ -1,8 +1,12 @@
-import LSBA.Small.Primitive
-import LSBA.Prop.Iteration
-import LSBA.Flow.BoundedInitialPacket
-import LSBA.Averaging.Inputs
-import LSBA.Prop.IncrementInputs
+module
+
+public import LSBA.Small.Primitive
+public import LSBA.Prop.Iteration
+public import LSBA.Flow.BoundedInitialPacket
+public import LSBA.Averaging.Inputs
+public import LSBA.Prop.IncrementInputs
+
+@[expose] public section
 
 /-!
 # Propagation at small coupling

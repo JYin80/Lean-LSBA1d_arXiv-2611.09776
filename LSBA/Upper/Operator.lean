@@ -1,6 +1,10 @@
-import LSBA.Transfer.VolCocycle
-import LSBA.Gauss.BlockAppend
-import LSBA.Gauss.NormMoment
+module
+
+public import LSBA.Transfer.VolCocycle
+public import LSBA.Gauss.BlockAppend
+public import LSBA.Gauss.NormMoment
+
+@[expose] public section
 
 /-!
 # The half-power transfer operator

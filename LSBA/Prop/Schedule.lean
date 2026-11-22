@@ -1,5 +1,9 @@
-import LSBA.Kernel.Defs
-import LSBA.Kernel.Scales
+module
+
+public import LSBA.Kernel.Defs
+public import LSBA.Kernel.Scales
+
+@[expose] public section
 
 /-!
 # The finite schedule

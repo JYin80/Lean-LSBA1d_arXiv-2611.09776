@@ -1,4 +1,8 @@
-import LSBA.Gauss.StdGauss
+module
+
+public import LSBA.Gauss.StdGauss
+
+@[expose] public section
 
 /-!
 # Gaussian divergence on `ℝ^ι`

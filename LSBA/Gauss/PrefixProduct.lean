@@ -1,5 +1,9 @@
-import LSBA.Gauss.BlockWindow
-import LSBA.Gauss.BlockAppend
+module
+
+public import LSBA.Gauss.BlockWindow
+public import LSBA.Gauss.BlockAppend
+
+@[expose] public section
 
 /-!
 # Conditioning on the first blocks of a GUE sample

@@ -1,4 +1,9 @@
-import Mathlib
+module
+
+public import Mathlib
+public import LSBA.MainDefs
+
+@[expose] public section
 
 /-!
 # Localization length
@@ -15,21 +20,6 @@ noncomputable section
 open scoped Classical
 
 namespace LSBA
-
-/-- Cyclic interval `{x, …, x+r-1} ⊆ ℤ_N`. -/
-def cycInterval (N : ℕ) (x : Fin N) (r : ℕ) : Finset (Fin N) :=
-  univ.filter fun i => (i.val + N - x.val) % N < r
-
-/-- Localization length of a mass profile `p : ℤ_N → ℝ`, (1.6) [eq:length]; the clause
-`r = N` makes the value lie in `[1, N]` for every profile when `0 < N`. -/
-def ellMass (N : ℕ) (p : Fin N → ℝ) : ℕ :=
-  sInf {r : ℕ | 1 ≤ r ∧ r ≤ N ∧
-    (r = N ∨ ∃ x : Fin N, (1 : ℝ) / 2 ≤ ∑ i ∈ cycInterval N x r, p i)}
-
-/-- Localization length of a profile on `Fin L × Fin W`, through the coordinates (1.1) [eq:blocks].
--/
-def ellProf (W L : ℕ) (p : Fin L × Fin W → ℝ) : ℕ :=
-  ellMass (L * W) fun i => p (finProdFinEquiv.symm i)
 
 /-- `ℓ(ψ)` of Definition 1.1 [def:length] for `ψ ∈ ℂ^L ⊗ ℂ^W`. -/
 def ell (W L : ℕ) (ψ : Fin L × Fin W → ℂ) : ℕ := ellProf W L fun x => ‖ψ x‖ ^ 2

@@ -1,6 +1,10 @@
-import LSBA.Flow.LemmaN
-import LSBA.Prop.Step1
-import LSBA.Flow.Moment
+module
+
+public import LSBA.Flow.LemmaN
+public import LSBA.Prop.Step1
+public import LSBA.Flow.Moment
+
+@[expose] public section
 
 /-!
 # Step 2 of the one-step propagation

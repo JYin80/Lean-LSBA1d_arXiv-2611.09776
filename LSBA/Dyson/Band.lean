@@ -1,5 +1,9 @@
-import LSBA.Dyson.Boundary
-import LSBA.Dyson.Distribution
+module
+
+public import LSBA.Dyson.Boundary
+public import LSBA.Dyson.Distribution
+
+@[expose] public section
 
 /-!
 # The band of `ν_g`

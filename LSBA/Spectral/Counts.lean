@@ -1,4 +1,9 @@
-import LSBA.Spectral.Length
+module
+
+public import LSBA.Spectral.Length
+public import LSBA.MainDefs
+
+@[expose] public section
 
 /-!
 # Spectral counts
@@ -18,26 +23,6 @@ open scoped Classical
 namespace LSBA
 
 variable {n : Type*} [Fintype n] [DecidableEq n]
-
-/-- Multiplicity of the eigenvalue `ev k`. -/
-def mult (ev : n → ℝ) (k : n) : ℕ := #(univ.filter fun j => ev j = ev k)
-
-/-- Diagonal of the spectral projection onto the eigenspace of `ev k`. -/
-def projDiag (ev : n → ℝ) (v : n → n → ℂ) (k : n) (i : n) : ℝ :=
-  ∑ j ∈ univ.filter (fun j => ev j = ev k), ‖v j i‖ ^ 2
-
-/-- Number of eigenvalues (with multiplicity) in `J`. -/
-def countIn (A : Matrix n n ℂ) (J : Set ℝ) : ℕ :=
-  if hA : A.IsHermitian then #(univ.filter fun k => hA.eigenvalues k ∈ J) else 0
-
-/-- Bad count: eigenvalues in `J` that are multiple, or simple with `ℓ < r`. -/
-def badCount (W L : ℕ) (A : Matrix (Fin L × Fin W) (Fin L × Fin W) ℂ) (J : Set ℝ) (r : ℝ) : ℕ :=
-  if hA : A.IsHermitian then
-    #(univ.filter fun k => hA.eigenvalues k ∈ J ∧
-      (2 ≤ mult hA.eigenvalues k ∨
-        ((ellProf W L (projDiag hA.eigenvalues (fun j => ⇑(hA.eigenvectorBasis j)) k) : ℕ)
-          : ℝ) < r))
-  else 0
 
 /-- Good count (lower half): simple eigenvalues in `J` with `r ≤ ℓ`. -/
 def goodCount (W L : ℕ) (A : Matrix (Fin L × Fin W) (Fin L × Fin W) ℂ) (J : Set ℝ) (r : ℝ) :

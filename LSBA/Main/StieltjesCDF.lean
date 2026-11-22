@@ -1,5 +1,9 @@
-import LSBA.Spectral.Counts
-import LSBA.Dyson.Distribution
+module
+
+public import LSBA.Spectral.Counts
+public import LSBA.Dyson.Distribution
+
+@[expose] public section
 
 /-!
 # From Stieltjes transforms to distribution functions

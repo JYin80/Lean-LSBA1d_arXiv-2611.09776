@@ -1,8 +1,12 @@
-import LSBA.Sampling.Space
-import LSBA.Sampling.Prefix
-import LSBA.Primitive.Orbital
-import LSBA.Transfer.Coarse
-import LSBA.Kernel.Large
+module
+
+public import LSBA.Sampling.Space
+public import LSBA.Sampling.Prefix
+public import LSBA.Primitive.Orbital
+public import LSBA.Transfer.Coarse
+public import LSBA.Kernel.Large
+
+@[expose] public section
 
 /-!
 # Primitive loops near the common space

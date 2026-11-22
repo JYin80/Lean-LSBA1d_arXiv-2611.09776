@@ -1,8 +1,12 @@
-import LSBA.Upper.RetainedSpace
-import LSBA.Upper.ProductMoment
-import LSBA.Gauss.HaarSubspace
-import LSBA.Spectral.RankTrace
-import LSBA.Upper.CoercivityMap
+module
+
+public import LSBA.Upper.RetainedSpace
+public import LSBA.Upper.ProductMoment
+public import LSBA.Gauss.HaarSubspace
+public import LSBA.Spectral.RankTrace
+public import LSBA.Upper.CoercivityMap
+
+@[expose] public section
 
 /-!
 # Probability bounds for the retained space

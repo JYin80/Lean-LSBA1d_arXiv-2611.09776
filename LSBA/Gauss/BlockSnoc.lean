@@ -1,4 +1,8 @@
-import LSBA.Gauss.BlockWindow
+module
+
+public import LSBA.Gauss.BlockWindow
+
+@[expose] public section
 
 /-!
 # Appending one fresh block

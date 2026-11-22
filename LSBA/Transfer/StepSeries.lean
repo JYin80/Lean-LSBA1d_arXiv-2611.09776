@@ -1,4 +1,8 @@
-import LSBA.Gauss.WickConfig
+module
+
+public import LSBA.Gauss.WickConfig
+
+@[expose] public section
 
 /-!
 # The one-step update as a power series in `h_θ/g`

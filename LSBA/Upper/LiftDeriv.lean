@@ -1,6 +1,10 @@
-import LSBA.Upper.LiftSize
-import LSBA.Upper.LiftDataDeriv
-import LSBA.Gauss.HermCoord
+module
+
+public import LSBA.Upper.LiftSize
+public import LSBA.Upper.LiftDataDeriv
+public import LSBA.Gauss.HermCoord
+
+@[expose] public section
 
 /-!
 # Smoothness and input derivatives of the general lift

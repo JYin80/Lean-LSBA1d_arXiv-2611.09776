@@ -1,4 +1,8 @@
-import LSBA.Upper.SmallScoreSmooth
+module
+
+public import LSBA.Upper.SmallScoreSmooth
+
+@[expose] public section
 
 /-!
 # Polynomial growth of the cut field at a fixed preparation

@@ -1,5 +1,9 @@
-import LSBA.Dyson.FiniteCycle
-import LSBA.Dyson.Distribution
+module
+
+public import LSBA.Dyson.FiniteCycle
+public import LSBA.Dyson.Distribution
+
+@[expose] public section
 
 /-!
 # Boundary values of the Dyson solutions

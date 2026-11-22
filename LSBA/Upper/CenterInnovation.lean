@@ -1,6 +1,10 @@
-import LSBA.Upper.CenterUpdate
-import LSBA.Gauss.PoincareMoment
-import LSBA.Upper.LargeGradState
+module
+
+public import LSBA.Upper.CenterUpdate
+public import LSBA.Gauss.PoincareMoment
+public import LSBA.Upper.LargeGradState
+
+@[expose] public section
 
 /-!
 # Innovations of the corrected observables

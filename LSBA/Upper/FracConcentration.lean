@@ -1,9 +1,13 @@
-import LSBA.Upper.FracMoment
-import LSBA.Upper.CorrelatorDecay
-import LSBA.Upper.CorrelatorCount
-import LSBA.Upper.Interface
-import LSBA.Upper.ConversionCycle
-import LSBA.Upper.NearZeroTransfer
+module
+
+public import LSBA.Upper.FracMoment
+public import LSBA.Upper.CorrelatorDecay
+public import LSBA.Upper.CorrelatorCount
+public import LSBA.Upper.Interface
+public import LSBA.Upper.ConversionCycle
+public import LSBA.Upper.NearZeroTransfer
+
+@[expose] public section
 
 /-!
 # From fixed-energy fractional moments to concentration

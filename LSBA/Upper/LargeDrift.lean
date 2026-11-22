@@ -1,4 +1,8 @@
-import LSBA.Upper.LargeGradient
+module
+
+public import LSBA.Upper.LargeGradient
+
+@[expose] public section
 
 /-!
 # The drift inequalities

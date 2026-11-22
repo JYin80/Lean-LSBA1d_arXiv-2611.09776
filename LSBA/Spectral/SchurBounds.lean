@@ -1,4 +1,8 @@
-import LSBA.Spectral.Schur
+module
+
+public import LSBA.Spectral.Schur
+
+@[expose] public section
 
 /-!
 # Bounds from the Schur formulas

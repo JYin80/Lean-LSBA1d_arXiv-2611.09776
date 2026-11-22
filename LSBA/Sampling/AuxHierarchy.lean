@@ -1,6 +1,10 @@
-import LSBA.Sampling.AuxModel
-import LSBA.Gauss.HeatGenerator
-import LSBA.Loop.Generator
+module
+
+public import LSBA.Sampling.AuxModel
+public import LSBA.Gauss.HeatGenerator
+public import LSBA.Loop.Generator
+
+@[expose] public section
 
 /-!
 # The expected hierarchy of the auxiliary model

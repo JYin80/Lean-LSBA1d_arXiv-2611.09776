@@ -1,5 +1,9 @@
-import LSBA.Model.Basic
-import LSBA.Spectral.Resolvent
+module
+
+public import LSBA.Model.Basic
+public import LSBA.Spectral.Resolvent
+
+@[expose] public section
 
 /-!
 # Local resolvent comparison

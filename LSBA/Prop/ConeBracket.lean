@@ -1,6 +1,10 @@
-import LSBA.Loop.ProjField
-import LSBA.Kernel.Restore
-import LSBA.Loop.SourceTail
+module
+
+public import LSBA.Loop.ProjField
+public import LSBA.Kernel.Restore
+public import LSBA.Loop.SourceTail
+
+@[expose] public section
 
 /-!
 # Deterministic brackets of the propagated loop-error fields of Step 3

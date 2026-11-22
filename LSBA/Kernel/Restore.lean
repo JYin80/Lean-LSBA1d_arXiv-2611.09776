@@ -1,6 +1,10 @@
-import LSBA.Kernel.Tensor
-import LSBA.Loop.Projection
-import LSBA.Primitive.Defs
+module
+
+public import LSBA.Kernel.Tensor
+public import LSBA.Loop.Projection
+public import LSBA.Primitive.Defs
+
+@[expose] public section
 
 /-!
 # Restoration and propagation of truncated tensors

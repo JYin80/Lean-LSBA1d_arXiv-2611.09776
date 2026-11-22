@@ -1,4 +1,8 @@
-import LSBA.Gauss.GUE
+module
+
+public import LSBA.Gauss.GUE
+
+@[expose] public section
 
 /-!
 # Standard coordinates of Hermitian input arrays

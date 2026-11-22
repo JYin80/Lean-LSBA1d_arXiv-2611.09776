@@ -1,6 +1,10 @@
-import LSBA.Upper.NearZeroGrowth
-import LSBA.Transfer.NormalComparison
-import LSBA.Upper.ConversionEndpoint
+module
+
+public import LSBA.Upper.NearZeroGrowth
+public import LSBA.Transfer.NormalComparison
+public import LSBA.Upper.ConversionEndpoint
+
+@[expose] public section
 
 /-!
 # Transfer growth near zero energy

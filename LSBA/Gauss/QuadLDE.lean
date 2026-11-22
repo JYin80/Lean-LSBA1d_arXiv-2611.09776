@@ -1,5 +1,9 @@
-import LSBA.Gauss.RowSplit
-import LSBA.Gauss.HaarMoment
+module
+
+public import LSBA.Gauss.RowSplit
+public import LSBA.Gauss.HaarMoment
+
+@[expose] public section
 
 /-!
 # Quadratic and linear large deviations

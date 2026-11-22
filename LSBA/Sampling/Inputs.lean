@@ -1,7 +1,11 @@
-import LSBA.Prop.RegimeBdd
-import LSBA.Prop.RegimeLarge
-import LSBA.Sampling.CrudeLarge
-import LSBA.Sampling.Residual
+module
+
+public import LSBA.Prop.RegimeBdd
+public import LSBA.Prop.RegimeLarge
+public import LSBA.Sampling.CrudeLarge
+public import LSBA.Sampling.Residual
+
+@[expose] public section
 
 /-!
 # The inputs of Lemmas 5.8 [uvc:thm:ordinary-sampling] and 5.10 [fo:lem:sampling-continuity]

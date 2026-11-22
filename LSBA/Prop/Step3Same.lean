@@ -1,4 +1,8 @@
-import LSBA.Prop.Step2
+module
+
+public import LSBA.Prop.Step2
+
+@[expose] public section
 
 /-!
 # Step 3 of the one-step propagation: the same-sign pair

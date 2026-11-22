@@ -1,7 +1,11 @@
-import LSBA.Flow.Realization
-import LSBA.Gauss.RoughDensity
-import LSBA.Primitive.Defs
-import LSBA.Prop.Domination
+module
+
+public import LSBA.Flow.Realization
+public import LSBA.Gauss.RoughDensity
+public import LSBA.Primitive.Defs
+public import LSBA.Prop.Domination
+
+@[expose] public section
 
 /-!
 # Flow points and the one-step input

@@ -1,5 +1,9 @@
-import LSBA.Spectral.Schur
-import LSBA.Gauss.QuadLDE
+module
+
+public import LSBA.Spectral.Schur
+public import LSBA.Gauss.QuadLDE
+
+@[expose] public section
 
 /-!
 # The Schur good events

@@ -1,8 +1,12 @@
-import LSBA.Volume.Poisson
-import LSBA.Volume.LocalComparison
-import LSBA.Model.Scales
-import LSBA.Spectral.SimpleSpectrum
-import LSBA.Spectral.Measurability
+module
+
+public import LSBA.Volume.Poisson
+public import LSBA.Volume.LocalComparison
+public import LSBA.Model.Scales
+public import LSBA.Spectral.SimpleSpectrum
+public import LSBA.Spectral.Measurability
+
+@[expose] public section
 
 /-!
 # Resolvent moments imply spreading, with volume extension

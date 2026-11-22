@@ -1,4 +1,8 @@
-import LSBA.Dyson.Regular
+module
+
+public import LSBA.Dyson.Regular
+
+@[expose] public section
 
 /-!
 # Finite-cycle regularity (Lemma A.3 [bl:lem:finite])

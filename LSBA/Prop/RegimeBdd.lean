@@ -1,8 +1,12 @@
-import LSBA.Prop.Regime
-import LSBA.Kernel.Bounded
-import LSBA.Kernel.Scales
-import LSBA.Primitive.Early
-import LSBA.Primitive.Bounded
+module
+
+public import LSBA.Prop.Regime
+public import LSBA.Kernel.Bounded
+public import LSBA.Kernel.Scales
+public import LSBA.Primitive.Early
+public import LSBA.Primitive.Bounded
+
+@[expose] public section
 
 /-!
 # The bounded-coupling regime

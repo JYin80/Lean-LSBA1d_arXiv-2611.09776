@@ -1,6 +1,10 @@
-import LSBA.Kernel.Root
-import LSBA.Loop.Basic
-import LSBA.Loop.Cuts
+module
+
+public import LSBA.Kernel.Root
+public import LSBA.Loop.Basic
+public import LSBA.Loop.Cuts
+
+@[expose] public section
 
 /-!
 # Primitive loops: definitions

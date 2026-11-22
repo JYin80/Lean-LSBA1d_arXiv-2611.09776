@@ -1,4 +1,8 @@
-import LSBA.Transfer.Frames
+module
+
+public import LSBA.Transfer.Frames
+
+@[expose] public section
 
 /-!
 # Graph frames and one transfer step

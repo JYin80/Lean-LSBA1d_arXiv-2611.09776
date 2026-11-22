@@ -1,5 +1,9 @@
-import LSBA.Prop.Regime
-import LSBA.Volume.LocalComparison
+module
+
+public import LSBA.Prop.Regime
+public import LSBA.Volume.LocalComparison
+
+@[expose] public section
 
 /-!
 # Step data of the one-step propagation

@@ -1,5 +1,9 @@
-import LSBA.Upper.Correlator
-import LSBA.Spectral.BlockTail
+module
+
+public import LSBA.Upper.Correlator
+public import LSBA.Spectral.BlockTail
+
+@[expose] public section
 
 /-!
 # From block correlators to the count of (3.6) [eq:averaged-tail]

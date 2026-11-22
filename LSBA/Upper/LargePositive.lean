@@ -1,5 +1,9 @@
-import LSBA.Upper.LargeDrift
-import LSBA.Upper.LargeIncrement
+module
+
+public import LSBA.Upper.LargeDrift
+public import LSBA.Upper.LargeIncrement
+
+@[expose] public section
 
 /-!
 # The bounded corrector and positive drift

@@ -1,4 +1,8 @@
-import LSBA.Upper.ScoreFrame
+module
+
+public import LSBA.Upper.ScoreFrame
+
+@[expose] public section
 
 /-!
 # The preparation of Lemma 8.12 [up:lem:small-contraction]

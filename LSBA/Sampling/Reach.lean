@@ -1,4 +1,8 @@
-import LSBA.Prop.Inputs
+module
+
+public import LSBA.Prop.Inputs
+
+@[expose] public section
 
 /-!
 # Points reached by comparison chains

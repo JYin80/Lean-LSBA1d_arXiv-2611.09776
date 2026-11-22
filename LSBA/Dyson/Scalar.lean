@@ -1,4 +1,9 @@
-import LSBA.Model.Basic
+module
+
+public import LSBA.Model.Basic
+public import LSBA.MainDefs
+
+@[expose] public section
 
 /-!
 # The Dyson equation on the line
@@ -16,15 +21,6 @@ noncomputable section
 open scoped Classical
 
 namespace LSBA
-
-/-- Right side of (1.9) [eq:dyson]. -/
-def dysonRHS (g : ℝ) (z u : ℂ) : ℂ :=
-  (2 * π : ℂ)⁻¹ * ∫ p in (-π)..π,
-    ((2 * g * Real.cos p / max 1 g : ℝ) - z - u / ((max 1 g : ℝ) : ℂ) ^ 2)⁻¹
-
-/-- `m_g(z)`: the unique solution in `ℂ_+` (junk value `0` if there is none). -/
-def mDyson (g : ℝ) (z : ℂ) : ℂ :=
-  if h : ∃! u : ℂ, 0 < u.im ∧ u = dysonRHS g z u then h.exists.choose else 0
 
 /-- Hopping `√γ_g g = g / max{1,g}`, (5.1) [fo:eq:flow]. -/
 def hopB (g : ℝ) : ℝ := g / max 1 g

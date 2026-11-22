@@ -1,5 +1,9 @@
-import LSBA.Upper.Operator
-import LSBA.Gauss.Divergence
+module
+
+public import LSBA.Upper.Operator
+public import LSBA.Gauss.Divergence
+
+@[expose] public section
 
 /-!
 # Smoothness of the batch cocycle and of the terminal flag in the inputs

@@ -1,7 +1,11 @@
-import LSBA.Upper.LiftAway
-import LSBA.Upper.FlagFlow
-import LSBA.Analysis.FlagDerivative
-import LSBA.Upper.AngularField
+module
+
+public import LSBA.Upper.LiftAway
+public import LSBA.Upper.FlagFlow
+public import LSBA.Analysis.FlagDerivative
+public import LSBA.Upper.AngularField
+
+@[expose] public section
 
 /-!
 # Lemma 8.13 [up:lem:density-contraction]: Gaussian divergence bounds from the product differential

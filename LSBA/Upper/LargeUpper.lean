@@ -1,19 +1,23 @@
-import LSBA.Upper.LargeAverageUpper
-import LSBA.Upper.NearZeroTransfer
-import LSBA.Upper.ConversionEndpoint
-import LSBA.Upper.ConversionCycle
-import LSBA.Upper.CorrelatorDecay
-import LSBA.Upper.CorrelatorCount
-import LSBA.Upper.Interface
-import LSBA.Upper.DensityContraction
-import LSBA.Upper.Angular
-import LSBA.Upper.GoodBad
-import LSBA.Upper.OperatorLength
-import LSBA.Upper.TailUnion
-import LSBA.Upper.FracAvgPath
-import LSBA.Upper.FracAveraged
-import LSBA.Upper.FracConcentration
-import LSBA.Upper.LargeFracCycle
+module
+
+public import LSBA.Upper.LargeAverageUpper
+public import LSBA.Upper.NearZeroTransfer
+public import LSBA.Upper.ConversionEndpoint
+public import LSBA.Upper.ConversionCycle
+public import LSBA.Upper.CorrelatorDecay
+public import LSBA.Upper.CorrelatorCount
+public import LSBA.Upper.Interface
+public import LSBA.Upper.DensityContraction
+public import LSBA.Upper.Angular
+public import LSBA.Upper.GoodBad
+public import LSBA.Upper.OperatorLength
+public import LSBA.Upper.TailUnion
+public import LSBA.Upper.FracAvgPath
+public import LSBA.Upper.FracAveraged
+public import LSBA.Upper.FracConcentration
+public import LSBA.Upper.LargeFracCycle
+
+@[expose] public section
 
 /-!
 # Theorem 3.4 [thm:large-upper]: concentration at large coupling

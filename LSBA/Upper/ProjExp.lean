@@ -1,5 +1,9 @@
-import LSBA.Upper.RegularState
-import LSBA.Spectral.DeformedRelLaw
+module
+
+public import LSBA.Upper.RegularState
+public import LSBA.Spectral.DeformedRelLaw
+
+@[expose] public section
 
 /-!
 # Expected spectral projections of a fresh deformed GUE matrix
